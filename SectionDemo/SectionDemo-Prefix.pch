@@ -1,0 +1,28 @@
+//
+//  SectionDemo-Prefix.pch
+//  SectionDemo
+//
+//  Created by HF on 17/3/9.
+//  Copyright © 2017年 HF-Liqun. All rights reserved.
+//
+
+#ifndef SectionDemo_Prefix_pch
+#define SectionDemo_Prefix_pch
+
+//屏幕宽
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+#define HorizontalFrom750(x)        (SCREEN_WIDTH/375.f*x)
+#define VerticalFrom750(y)          (SCREEN_HEIGHT/667.f*y)
+
+#define Round_HorizontalFrom750(x)   round(HorizontalFrom750(x))
+#define Round_VerticalFrom750(y)     round(VerticalFrom750(y))
+
+#import "ReactiveCocoa.h"
+#import "RACReturnSignal.h"
+#import "Masonry.h"
+
+#endif /* SectionDemo_Prefix_pch */
