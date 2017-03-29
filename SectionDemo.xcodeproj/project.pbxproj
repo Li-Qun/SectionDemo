@@ -14,6 +14,19 @@
 		A7024D0C1E713747004C5E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0A1E713747004C5E84 /* Main.storyboard */; };
 		A7024D0E1E713747004C5E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0D1E713747004C5E84 /* Assets.xcassets */; };
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
+		A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CA9F1E8A6622000638EA /* HFAnimation.m */; };
+		A780CAA31E8A6728000638EA /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA21E8A6728000638EA /* FromViewController.m */; };
+		A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA81E8A6C0A000638EA /* ToViewController.m */; };
+		A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAC01E8A7776000638EA /* NavigationPerfomer.m */; };
+		A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAC21E8A7776000638EA /* PopAnimation.m */; };
+		A780CACD1E8A7776000638EA /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAC41E8A7776000638EA /* PushAnimation.m */; };
+		A780CACE1E8A7776000638EA /* ActionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAC81E8A7776000638EA /* ActionDetailViewController.m */; };
+		A780CACF1E8A7776000638EA /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CACA1E8A7776000638EA /* ActionViewController.m */; };
+		A780CAD21E8BB718000638EA /* TransitionFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAD11E8BB718000638EA /* TransitionFromViewController.m */; };
+		A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAD41E8BB728000638EA /* TransitionToViewController.m */; };
+		A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAD71E8BB784000638EA /* TransitionCell.m */; };
+		A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */; };
+		A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */; };
 		A7BCB3A71E7258C800ECCDF7 /* HomeTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A01E7258C800ECCDF7 /* HomeTableViewDataSource.m */; };
 		A7BCB3A81E7258C800ECCDF7 /* HomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A31E7258C800ECCDF7 /* HomeBannerCell.m */; };
 		A7BCB3A91E7258C800ECCDF7 /* ViewController减负.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A61E7258C800ECCDF7 /* ViewController减负.m */; };
@@ -33,6 +46,32 @@
 		A7024D101E713747004C5E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7024D121E713747004C5E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7024D191E713988004C5E84 /* SectionDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SectionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
+		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
+		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
+		A780CAA21E8A6728000638EA /* FromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromViewController.m; sourceTree = "<group>"; };
+		A780CAA71E8A6C0A000638EA /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToViewController.h; sourceTree = "<group>"; };
+		A780CAA81E8A6C0A000638EA /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToViewController.m; sourceTree = "<group>"; };
+		A780CABF1E8A7776000638EA /* NavigationPerfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationPerfomer.h; sourceTree = "<group>"; };
+		A780CAC01E8A7776000638EA /* NavigationPerfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationPerfomer.m; sourceTree = "<group>"; };
+		A780CAC11E8A7776000638EA /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		A780CAC21E8A7776000638EA /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		A780CAC31E8A7776000638EA /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		A780CAC41E8A7776000638EA /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		A780CAC71E8A7776000638EA /* ActionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDetailViewController.h; sourceTree = "<group>"; };
+		A780CAC81E8A7776000638EA /* ActionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDetailViewController.m; sourceTree = "<group>"; };
+		A780CAC91E8A7776000638EA /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		A780CACA1E8A7776000638EA /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		A780CAD01E8BB718000638EA /* TransitionFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionFromViewController.h; sourceTree = "<group>"; };
+		A780CAD11E8BB718000638EA /* TransitionFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFromViewController.m; sourceTree = "<group>"; };
+		A780CAD31E8BB728000638EA /* TransitionToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionToViewController.h; sourceTree = "<group>"; };
+		A780CAD41E8BB728000638EA /* TransitionToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionToViewController.m; sourceTree = "<group>"; };
+		A780CAD61E8BB784000638EA /* TransitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionCell.h; sourceTree = "<group>"; };
+		A780CAD71E8BB784000638EA /* TransitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionCell.m; sourceTree = "<group>"; };
+		A780CADA1E8BC0A1000638EA /* TransitionPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionPushAnimation.h; sourceTree = "<group>"; };
+		A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPushAnimation.m; sourceTree = "<group>"; };
+		A780CADD1E8BC0DB000638EA /* TransitionPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionPopAnimation.h; sourceTree = "<group>"; };
+		A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPopAnimation.m; sourceTree = "<group>"; };
 		A7BCB39F1E7258C800ECCDF7 /* HomeTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewDataSource.h; sourceTree = "<group>"; };
 		A7BCB3A01E7258C800ECCDF7 /* HomeTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewDataSource.m; sourceTree = "<group>"; };
 		A7BCB3A21E7258C800ECCDF7 /* HomeBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerCell.h; sourceTree = "<group>"; };
@@ -116,12 +155,110 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
+		A780CA891E8A3C96000638EA /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				A7BCB39E1E7258C800ECCDF7 /* Model */,
 				A7BCB3A11E7258C800ECCDF7 /* ViewCell */,
 				A7BCB3A41E7258C800ECCDF7 /* ViewController */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A780CA9B1E8A65CC000638EA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A780CA9C1E8A65CC000638EA /* Model */,
+				A780CA9D1E8A65CC000638EA /* ViewController */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A780CA9C1E8A65CC000638EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A780CA9E1E8A6622000638EA /* HFAnimation.h */,
+				A780CA9F1E8A6622000638EA /* HFAnimation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A780CA9D1E8A65CC000638EA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A780CAA11E8A6728000638EA /* FromViewController.h */,
+				A780CAA21E8A6728000638EA /* FromViewController.m */,
+				A780CAA71E8A6C0A000638EA /* ToViewController.h */,
+				A780CAA81E8A6C0A000638EA /* ToViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A780CABD1E8A7776000638EA /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				A780CABE1E8A7776000638EA /* Model */,
+				A780CAC51E8A7776000638EA /* View */,
+				A780CAC61E8A7776000638EA /* ViewController */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		A780CABE1E8A7776000638EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A780CAD91E8BC078000638EA /* ModelTransition */,
+				A780CABF1E8A7776000638EA /* NavigationPerfomer.h */,
+				A780CAC01E8A7776000638EA /* NavigationPerfomer.m */,
+				A780CAC31E8A7776000638EA /* PushAnimation.h */,
+				A780CAC41E8A7776000638EA /* PushAnimation.m */,
+				A780CAC11E8A7776000638EA /* PopAnimation.h */,
+				A780CAC21E8A7776000638EA /* PopAnimation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A780CAC51E8A7776000638EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A780CAD61E8BB784000638EA /* TransitionCell.h */,
+				A780CAD71E8BB784000638EA /* TransitionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A780CAC61E8A7776000638EA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A780CAC71E8A7776000638EA /* ActionDetailViewController.h */,
+				A780CAC81E8A7776000638EA /* ActionDetailViewController.m */,
+				A780CAC91E8A7776000638EA /* ActionViewController.h */,
+				A780CACA1E8A7776000638EA /* ActionViewController.m */,
+				A780CAD01E8BB718000638EA /* TransitionFromViewController.h */,
+				A780CAD11E8BB718000638EA /* TransitionFromViewController.m */,
+				A780CAD31E8BB728000638EA /* TransitionToViewController.h */,
+				A780CAD41E8BB728000638EA /* TransitionToViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A780CAD91E8BC078000638EA /* ModelTransition */ = {
+			isa = PBXGroup;
+			children = (
+				A780CADA1E8BC0A1000638EA /* TransitionPushAnimation.h */,
+				A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */,
+				A780CADD1E8BC0DB000638EA /* TransitionPopAnimation.h */,
+				A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */,
+			);
+			path = ModelTransition;
+			sourceTree = "<group>";
+		};
+		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				A780CABD1E8A7776000638EA /* Transitions */,
+				A780CA9B1E8A65CC000638EA /* Animation */,
+				A780CA891E8A3C96000638EA /* Home */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -278,12 +415,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */,
+				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A7024D091E713747004C5E84 /* ViewController.m in Sources */,
+				A780CACE1E8A7776000638EA /* ActionDetailViewController.m in Sources */,
+				A780CACD1E8A7776000638EA /* PushAnimation.m in Sources */,
+				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
+				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
+				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
 				A7024D031E713747004C5E84 /* main.m in Sources */,
 				A7BCB3A71E7258C800ECCDF7 /* HomeTableViewDataSource.m in Sources */,
+				A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */,
+				A780CACF1E8A7776000638EA /* ActionViewController.m in Sources */,
+				A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */,
+				A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */,
 				A7BCB3A91E7258C800ECCDF7 /* ViewController减负.m in Sources */,
 				A7BCB3A81E7258C800ECCDF7 /* HomeBannerCell.m in Sources */,
+				A780CAD21E8BB718000638EA /* TransitionFromViewController.m in Sources */,
+				A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
