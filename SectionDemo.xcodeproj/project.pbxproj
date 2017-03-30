@@ -27,6 +27,7 @@
 		A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAD71E8BB784000638EA /* TransitionCell.m */; };
 		A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */; };
 		A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */; };
+		A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAE11E8BC8BF000638EA /* TransitionNavigationPerformer.m */; };
 		A7BCB3A71E7258C800ECCDF7 /* HomeTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A01E7258C800ECCDF7 /* HomeTableViewDataSource.m */; };
 		A7BCB3A81E7258C800ECCDF7 /* HomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A31E7258C800ECCDF7 /* HomeBannerCell.m */; };
 		A7BCB3A91E7258C800ECCDF7 /* ViewController减负.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BCB3A61E7258C800ECCDF7 /* ViewController减负.m */; };
@@ -72,6 +73,8 @@
 		A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPushAnimation.m; sourceTree = "<group>"; };
 		A780CADD1E8BC0DB000638EA /* TransitionPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionPopAnimation.h; sourceTree = "<group>"; };
 		A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPopAnimation.m; sourceTree = "<group>"; };
+		A780CAE01E8BC8BF000638EA /* TransitionNavigationPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionNavigationPerformer.h; sourceTree = "<group>"; };
+		A780CAE11E8BC8BF000638EA /* TransitionNavigationPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionNavigationPerformer.m; sourceTree = "<group>"; };
 		A7BCB39F1E7258C800ECCDF7 /* HomeTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewDataSource.h; sourceTree = "<group>"; };
 		A7BCB3A01E7258C800ECCDF7 /* HomeTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewDataSource.m; sourceTree = "<group>"; };
 		A7BCB3A21E7258C800ECCDF7 /* HomeBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerCell.h; sourceTree = "<group>"; };
@@ -230,10 +233,10 @@
 		A780CAC61E8A7776000638EA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A780CAC71E8A7776000638EA /* ActionDetailViewController.h */,
-				A780CAC81E8A7776000638EA /* ActionDetailViewController.m */,
 				A780CAC91E8A7776000638EA /* ActionViewController.h */,
 				A780CACA1E8A7776000638EA /* ActionViewController.m */,
+				A780CAC71E8A7776000638EA /* ActionDetailViewController.h */,
+				A780CAC81E8A7776000638EA /* ActionDetailViewController.m */,
 				A780CAD01E8BB718000638EA /* TransitionFromViewController.h */,
 				A780CAD11E8BB718000638EA /* TransitionFromViewController.m */,
 				A780CAD31E8BB728000638EA /* TransitionToViewController.h */,
@@ -249,6 +252,8 @@
 				A780CADB1E8BC0A1000638EA /* TransitionPushAnimation.m */,
 				A780CADD1E8BC0DB000638EA /* TransitionPopAnimation.h */,
 				A780CADE1E8BC0DB000638EA /* TransitionPopAnimation.m */,
+				A780CAE01E8BC8BF000638EA /* TransitionNavigationPerformer.h */,
+				A780CAE11E8BC8BF000638EA /* TransitionNavigationPerformer.m */,
 			);
 			path = ModelTransition;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */,
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A7024D091E713747004C5E84 /* ViewController.m in Sources */,
+				A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */,
 				A780CACE1E8A7776000638EA /* ActionDetailViewController.m in Sources */,
 				A780CACD1E8A7776000638EA /* PushAnimation.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,

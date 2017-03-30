@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/ViewController/ActionViewController.m \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/ModelTransition/TransitionNavigationPerformer.m \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/SectionDemo-Prefix.pch \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules/module.modulemap \
@@ -112,9 +112,6 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/ViewController/ActionViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/ViewController/ActionDetailViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/ViewController/TransitionFromViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/NavigationPerfomer.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/PushAnimation.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/PopAnimation.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/ModelTransition/TransitionNavigationPerformer.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/ModelTransition/TransitionPopAnimation.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/Model/ModelTransition/TransitionPushAnimation.h

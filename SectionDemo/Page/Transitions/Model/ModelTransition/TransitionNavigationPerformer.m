@@ -1,23 +1,23 @@
 //
-//  NavigationPerfomer.m
-//  ViewControllerTransitions
+//  TransitionNavigationPerformer.m
+//  SectionDemo
 //
-//  Created by Jymn_Chen on 14-2-6.
-//  Copyright (c) 2014年 Jymn_Chen. All rights reserved.
+//  Created by HF on 17/3/29.
+//  Copyright © 2017年 HF-Liqun. All rights reserved.
 //
 
-#import "NavigationPerfomer.h"
-#import "PushAnimation.h"
-#import "PopAnimation.h"
+#import "TransitionNavigationPerformer.h"
+#import "TransitionPopAnimation.h"
+#import "TransitionPushAnimation.h"
 
-@interface NavigationPerfomer ()
+@interface TransitionNavigationPerformer ()
 {
-     UIScreenEdgePanGestureRecognizer *panGesture;
+    UIScreenEdgePanGestureRecognizer *panGesture;
 }
 
 @end
 
-@implementation NavigationPerfomer
+@implementation TransitionNavigationPerformer
 
 - (instancetype)initWithNav:(id)nav
 {
@@ -29,10 +29,10 @@
         panGesture = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
         panGesture.edges = UIRectEdgeLeft; //主要用作返回 left
         [self.navigationController.view addGestureRecognizer:panGesture];
-
+        
         // 初始化动画方案
-        self.pushAnimation = [[PushAnimation alloc] init];
-        self.popAnimation  = [[PopAnimation alloc] init];
+        self.pushAnimation = [[TransitionPushAnimation alloc] init];
+        self.popAnimation  = [[TransitionPopAnimation alloc] init];
     }
     return self;
 }
@@ -89,12 +89,13 @@
 - (id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
                          interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController {
     // 检查是否是我们的自定义过渡
-    if ([animationController isKindOfClass:[PopAnimation class]] || [animationController isKindOfClass:[PushAnimation class]]) {
+    if ([animationController isKindOfClass:[TransitionPushAnimation class]] || [animationController isKindOfClass:[TransitionPopAnimation class]]) {
         return self.interactionController;
     }
     else {
         return nil;
     }
 }
+
 
 @end

@@ -10,22 +10,41 @@
 #import "TransitionToViewController.h"
 #import "TransitionCell.h"
 
-@interface TransitionFromViewController () <UITableViewDelegate, UITableViewDataSource,UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
+#import "TransitionNavigationPerformer.h"
 
+@interface TransitionFromViewController () <UITableViewDelegate, UITableViewDataSource,UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
+{
+    TransitionNavigationPerformer *navPerformer;
+}
 @end
 
 @implementation TransitionFromViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"列表";
     
-    UITableView *tableView = [[UITableView alloc]initWithFrame:self.view.frame];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    [self.view addSubview:tableView];
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.frame];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
     
-    [tableView registerClass:[TransitionCell class] forCellReuseIdentifier:@"TransitionCell"];
+    [self.tableView registerClass:[TransitionCell class] forCellReuseIdentifier:@"TransitionCell"];
+    
+    navPerformer = [[TransitionNavigationPerformer alloc]initWithNav:self.navigationController];
 
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.delegate = nil;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    self.navigationController.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,10 +82,22 @@
 {
     NSInteger row =  indexPath.row;
     if (row == 0) {
+        
+        self.navigationController.delegate = navPerformer;
         TransitionToViewController *vc = [[TransitionToViewController alloc]init];
+        vc.index = @(indexPath.row);
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
+#pragma mark - private
 
+- (TransitionCell *)tableViewCellForModel:(id)sender {
+
+    NSInteger index = [sender integerValue];
+    if (index == NSNotFound) {
+        return nil;
+    }
+    return (TransitionCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0]];
+}
 @end

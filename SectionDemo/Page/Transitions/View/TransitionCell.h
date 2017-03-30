@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TransitionCell : UITableViewCell
- 
+
+@property (nonatomic, strong)  UILabel *titleLabel;
+@property (nonatomic, strong)  UIImageView *iconImageView;
+
 @end

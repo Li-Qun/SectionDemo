@@ -10,4 +10,8 @@
 
 @interface TransitionFromViewController : UIViewController
 
+@property (nonatomic, strong) UITableView *tableView;
+
+- (id)tableViewCellForModel:(id)sender;
+
 @end

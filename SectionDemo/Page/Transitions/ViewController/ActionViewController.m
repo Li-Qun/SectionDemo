@@ -8,6 +8,7 @@
 
 #import "ActionViewController.h"
 #import "ActionDetailViewController.h"
+#import "TransitionFromViewController.h"
 
 #import "NavigationPerfomer.h"
 #import "PushAnimation.h"
@@ -40,7 +41,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.navigationController.delegate = navigationPerFomer; //需要在这里设置代理
+    self.navigationController.delegate = nil; //必须这个位置取消代理 不然 其他页面通用跳转会崩溃
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -58,7 +59,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
-    return 1;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
@@ -66,7 +67,10 @@
     NSInteger row =  indexPath.row;
     UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell1"];
     if (row == 0) {
-        cell.textLabel.text = [NSString stringWithFormat:@"Item 0%ld",(indexPath.row + 1)];
+        cell.textLabel.text = [NSString stringWithFormat:@"学习过程效果 0%ld",(indexPath.row + 1)];
+    }
+    if (row == 1) {
+        cell.textLabel.text = [NSString stringWithFormat:@"自定义效果 0%ld",(indexPath.row + 1)];
     }
     return cell;
 }
@@ -75,7 +79,14 @@
 {
     NSInteger row =  indexPath.row;
     if (row == 0) {
+        self.navigationController.delegate = navigationPerFomer; //需要在这里设置代理
         ActionDetailViewController *vc = [[ActionDetailViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 1) {
+        self.navigationController.delegate = nil;
+        
+        TransitionFromViewController *vc = [[TransitionFromViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

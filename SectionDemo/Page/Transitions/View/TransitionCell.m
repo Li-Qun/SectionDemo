@@ -10,9 +10,6 @@
 
 @interface TransitionCell ()
 
-@property (nonatomic, strong)  UILabel *titleLabel;
-@property (nonatomic, strong)  UIImageView *iconImageView;
-
 @end
 
 
@@ -31,16 +28,17 @@
 
 - (void)setupViews
 {
-    [self.contentView addSubview:self.titleLabel];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.bottom.equalTo(self.contentView);
-        make.width.equalTo(@100);
-    }];
-    
+//    [self.contentView addSubview:self.titleLabel];
+//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.top.bottom.equalTo(self.contentView);
+//        make.width.equalTo(@100);
+//    }];
+//    
     [self.contentView addSubview:self.iconImageView];
     [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.greaterThanOrEqualTo(self.titleLabel.mas_right);
-        make.top.bottom.right.equalTo(self.contentView);
+        make.center.equalTo(self.contentView);
+        make.height.width.equalTo(@100);
+      
     }];
 }
 

@@ -7,11 +7,12 @@
 //
 
 #import "TransitionToViewController.h"
+#import "TransitionNavigationPerformer.h"
 
 @interface TransitionToViewController ()
-
-@property (nonatomic, strong)  UILabel *titleLabel;
-@property (nonatomic, strong)  UIImageView *iconImageView;
+{
+    TransitionNavigationPerformer *navPerformer;
+}
 
 @end
 
@@ -19,7 +20,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+     navPerformer = [[TransitionNavigationPerformer alloc]initWithNav:self.navigationController];
+    [self setupViews];
+    self.title = @"详情";
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.delegate = navPerformer;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    self.navigationController.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,20 +44,21 @@
 
 - (void)setupViews
 {
-    [self.view addSubview:self.titleLabel];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.view);
-        make.width.equalTo(@200);
-        make.center.centerY.equalTo(self.view);
-    }];
+//    [self.view addSubview:self.titleLabel];
+//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.equalTo(self.view);
+//        make.width.equalTo(@100);
+//        make.center.centerY.equalTo(self.view);
+//    }];
     
     [self.view addSubview:self.iconImageView];
     [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.greaterThanOrEqualTo(self.titleLabel.mas_right);
-        make.right.equalTo(self.view);
-        make.center.centerY.equalTo(self.view);
-        make.height.equalTo(@200);
+        make.height.width.equalTo(@200);
+        make.center.equalTo(self.view);
     }];
+    //更新childView frame
+    [self.view setNeedsLayout];
+    [self.view layoutIfNeeded];
 }
 
 #pragma mark - setter/getter
