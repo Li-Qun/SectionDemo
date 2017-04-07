@@ -7,6 +7,9 @@ target 'SectionDemo' do
     #pod 'AFNetworking', '~> 2.5.4'
     pod 'ReactiveCocoa', '~> 2.5'
     pod 'Masonry' ,  '~> 1.0.2'
+    pod 'MJRefresh', '~> 3.1.12'
+    #pod 'YYKit'
+    pod 'YYText'
     use_frameworks!
  
 end

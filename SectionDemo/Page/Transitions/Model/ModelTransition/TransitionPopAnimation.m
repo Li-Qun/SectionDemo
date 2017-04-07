@@ -62,9 +62,6 @@
         // Declare that we've finished
         [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
     }];
-
-
-
 }
 
 @end

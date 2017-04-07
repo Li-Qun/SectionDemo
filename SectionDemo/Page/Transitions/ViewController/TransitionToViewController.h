@@ -12,9 +12,6 @@
 
 @property (nonatomic, assign) id index;
 @property (nonatomic, strong)  UILabel *titleLabel;
-
 @property (nonatomic, strong)  UIImageView *iconImageView;
-
-- (CGRect)getIconImageViewFrame;
 
 @end

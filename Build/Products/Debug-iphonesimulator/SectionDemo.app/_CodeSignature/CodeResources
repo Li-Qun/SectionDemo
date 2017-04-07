@@ -6,13 +6,13 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CsvkTiEoV/UndUb4t0JuzLF7L4Y=
+		6XQ0yvhMFZBe/rpMv1XxpVJwuvg=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pScKYeeUL6qY8qPOPmXYpAeOCns=
+			vC6dGExr0K4ysktoZMbicgjgv4I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +30,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3+GhMAcqQgRQJb+QlL5+6K6Ppyk=
+			TsMgbxHfasJTMOEfJwncuY7yp8M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bRIMvUZk8sSIwO8MTeCAHXL2Tvc=
+			kKLrjVLD5PLAeAPpzfTZbLXOIPY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -57,18 +57,61 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dx4fXsfIS0Un2aYjD3rtWGhmGs8=
+			f+xr+7ix25MoIewYokfp0KK/OGA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/MJRefresh.framework/Info.plist</key>
+		<data>
+		SEmCG0jFcB9gGUyTJ0S9mSB7M2I=
+		</data>
+		<key>Frameworks/MJRefresh.framework/MJRefresh</key>
+		<data>
+		MnBByS0ZsDImwBJsk7yZ+IQKhu0=
+		</data>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png</key>
+		<data>
+		5ZENFuDcEgHjDuL7tn7h97HeuSE=
+		</data>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+MqdSIQkOmft3feFB6CbJQkGr7c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DD5bNeaUTksFP2PkSNtokoJkKjU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hjIzn4qLs8xLMnelxOeMouDSaZY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/_CodeSignature/CodeResources</key>
+		<data>
+		N0vATXDeyCc29zwLGbJjbnoUnts=
+		</data>
 		<key>Frameworks/Masonry.framework/Info.plist</key>
 		<data>
 		LjPMc2ss6MDBww6UGF+ETLepjaM=
 		</data>
 		<key>Frameworks/Masonry.framework/Masonry</key>
 		<data>
-		dH1bcV2QszEg2+s/cgs2slOQh24=
+		IWKg3Bruecx5PmxLdE8JQON7+M8=
 		</data>
 		<key>Frameworks/Masonry.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -80,11 +123,23 @@
 		</data>
 		<key>Frameworks/ReactiveCocoa.framework/ReactiveCocoa</key>
 		<data>
-		qIN7Yu/g/qXwY1XVjBFzMKsPypc=
+		l2qhA3mYsYs8jf3OWehRd8hLnFI=
 		</data>
 		<key>Frameworks/ReactiveCocoa.framework/_CodeSignature/CodeResources</key>
 		<data>
 		L6EBoD/siMhEjcemypkjqJuNLEc=
+		</data>
+		<key>Frameworks/YYText.framework/Info.plist</key>
+		<data>
+		OQxhpvt1hb/nojRAQ37+F1Cb8SI=
+		</data>
+		<key>Frameworks/YYText.framework/YYText</key>
+		<data>
+		ybxyP9Xd0kE6OMa1w0aYjNLnY7Y=
+		</data>
+		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>
+		<data>
+		EaeCQ29fy28tgQes4w6pp3tc5Mc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -101,22 +156,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CsvkTiEoV/UndUb4t0JuzLF7L4Y=
+			6XQ0yvhMFZBe/rpMv1XxpVJwuvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ajEFtrr+Svn+LbPC2wIfMDIDOvn5fQXXsak6aoOI4QU=
+			0mk+QLNKDD9TBaUBaP5GRHTdiJ4pBH1fWo53h7d8Kts=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pScKYeeUL6qY8qPOPmXYpAeOCns=
+			vC6dGExr0K4ysktoZMbicgjgv4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			pP3OBFDJ8ZMeWh9fYx4yh9jKH2TAfYR6BvDyoXbY3Xs=
+			q3GlSe4GLm9VFv1ejDko+byfhP8+COSMlR/hT6mo2KA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -138,11 +193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3+GhMAcqQgRQJb+QlL5+6K6Ppyk=
+			TsMgbxHfasJTMOEfJwncuY7yp8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			wRPvuz/siSNHUueSEdPvTveFkA8mNT6SoEw2koUZqmU=
+			hxh8a0YIuMRFOsttGA7BBWhOuTqf38HNdQpH/g9jy4k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -151,11 +206,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bRIMvUZk8sSIwO8MTeCAHXL2Tvc=
+			kKLrjVLD5PLAeAPpzfTZbLXOIPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			TDCwNDHhH5m1PEzEf34CxAUyahdb+PiNVe0yfGVAI4Q=
+			tUoF58oDSg3RJIMl6fOQycX+hBSBa3eevT6W9713evA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -177,14 +232,97 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dx4fXsfIS0Un2aYjD3rtWGhmGs8=
+			f+xr+7ix25MoIewYokfp0KK/OGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			GO0V1On9aK4LrIvQvM1MXka6Jvlzt5FArtEF+NvnjpM=
+			CUCbMXlZW/GAtyEvTkkxulp4GkcFxTwH94z7vNPXAks=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SEmCG0jFcB9gGUyTJ0S9mSB7M2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			g9dlkQLTRRSoSYX6AIzTqGpX73ooYM9vmDD6wNPFDh8=
+			</data>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MnBByS0ZsDImwBJsk7yZ+IQKhu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			gN/f8wx0X8iR/O5rSoSmK+DnPmWYaeIxqyHHJkxoB4g=
+			</data>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/arrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ZENFuDcEgHjDuL7tn7h97HeuSE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5pZTVM6xOoz5TmObI4Nq10XxwWgOr9sM2We8r8FZAYg=
+			</data>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+MqdSIQkOmft3feFB6CbJQkGr7c=
+			</data>
+			<key>hash2</key>
+			<data>
+			k6E422M45vEs2p2syr9FCVwZCX4z6gPz1FP6ktwFhV0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DD5bNeaUTksFP2PkSNtokoJkKjU=
+			</data>
+			<key>hash2</key>
+			<data>
+			5c2ENj+vfMLxJOnUypY2dhJ3O8hGg7P3PaWrgwX+G0I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hjIzn4qLs8xLMnelxOeMouDSaZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			AteA9vw+ofnahB0RNbonkmUulQC5Co8UvNf/1MwU7a4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/MJRefresh.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N0vATXDeyCc29zwLGbJjbnoUnts=
+			</data>
+			<key>hash2</key>
+			<data>
+			4hP4lxVq+NofTBJIihZ7sPgYvW2MjgQpEp1/UzY6Wc4=
+			</data>
 		</dict>
 		<key>Frameworks/Masonry.framework/Info.plist</key>
 		<dict>
@@ -201,11 +339,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dH1bcV2QszEg2+s/cgs2slOQh24=
+			IWKg3Bruecx5PmxLdE8JQON7+M8=
 			</data>
 			<key>hash2</key>
 			<data>
-			R04X+E4+YQGhMWIYCGr1o9dJHz9H977klR7qcVECXoQ=
+			GD5G32prsnoJrlEaiUlnNOZoklUZigTeDKMj0ix4Vf0=
 			</data>
 		</dict>
 		<key>Frameworks/Masonry.framework/_CodeSignature/CodeResources</key>
@@ -234,11 +372,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qIN7Yu/g/qXwY1XVjBFzMKsPypc=
+			l2qhA3mYsYs8jf3OWehRd8hLnFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wh+E99cOBA8NojmRlTEImmyxdnCTvVMQy86hDeZOxPo=
+			9VjzFq59eySeJPawl0XJvNLE6oxS5QQpAOiikTQPMAA=
 			</data>
 		</dict>
 		<key>Frameworks/ReactiveCocoa.framework/_CodeSignature/CodeResources</key>
@@ -250,6 +388,39 @@
 			<key>hash2</key>
 			<data>
 			B7X53JqkqGwsbM/cloSGgd82/RgI3zGV8gNgbwBWxl0=
+			</data>
+		</dict>
+		<key>Frameworks/YYText.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OQxhpvt1hb/nojRAQ37+F1Cb8SI=
+			</data>
+			<key>hash2</key>
+			<data>
+			BEnxQ9hFbm5zgX8MAoUEerWapMFNojqiV0/L/qziOZc=
+			</data>
+		</dict>
+		<key>Frameworks/YYText.framework/YYText</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ybxyP9Xd0kE6OMa1w0aYjNLnY7Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			CbylJ6CGWQY5qylk5grILg8SdUBz7Oj/ckaydTAQShU=
+			</data>
+		</dict>
+		<key>Frameworks/YYText.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EaeCQ29fy28tgQes4w6pp3tc5Mc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vr5oj73KXRwXXDZSno5yqe6y9iYLq/BIwJmUI77Rfuc=
 			</data>
 		</dict>
 	</dict>
