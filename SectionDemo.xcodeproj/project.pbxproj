@@ -45,6 +45,7 @@
 		A7A819E81E9B234500D0C461 /* VideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819E41E9B234500D0C461 /* VideoSlider.m */; };
 		A7A819EE1E9B70B700D0C461 /* HFNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819EB1E9B70B700D0C461 /* HFNoteView.m */; };
 		A7A819EF1E9B70B700D0C461 /* UIView+GoAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */; };
+		A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */; };
 		A7BCB3AB1E7259C200ECCDF7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +124,8 @@
 		A7A819EB1E9B70B700D0C461 /* HFNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNoteView.m; sourceTree = "<group>"; };
 		A7A819EC1E9B70B700D0C461 /* UIView+GoAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoAdd.h"; sourceTree = "<group>"; };
 		A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoAdd.m"; sourceTree = "<group>"; };
+		A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HFBlock.h"; sourceTree = "<group>"; };
+		A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HFBlock.m"; sourceTree = "<group>"; };
 		A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		B1564B83D24609E75663C2B9 /* Pods-SectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SectionDemo/Pods-SectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E20D7E5B06C8A592E6FEF05A /* Pods_SectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -426,6 +429,8 @@
 				A7A819EB1E9B70B700D0C461 /* HFNoteView.m */,
 				A7A819EC1E9B70B700D0C461 /* UIView+GoAdd.h */,
 				A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */,
+				A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */,
+				A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */,
 			);
 			path = HFUIKit;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				A780CB0D1E8F54BC000638EA /* MethodDetailViewController+Video.m in Sources */,
 				A780CB041E8F47F1000638EA /* MethodDetailViewController.m in Sources */,
 				A7A819E51E9B234500D0C461 /* MethdDetailVideoMaskImageView.m in Sources */,
+				A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,

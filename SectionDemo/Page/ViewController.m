@@ -12,6 +12,7 @@
 #import "FromViewController.h"
 #import "CustomRefreshViewController.h"
 #import "MethodDetailViewController.h"
+#import "UIAlertView+HFBlock.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 {
@@ -64,6 +65,9 @@
     if (row == 4) {
         cell.textLabel.text = @"VC 视频播放和全屏";
     }
+    if (row == 5) {
+        cell.textLabel.text = @"UIAlertView Block";
+    }
     return cell;
 }
 
@@ -89,6 +93,24 @@
     if (row == 4) {
         MethodDetailViewController *vc = [[MethodDetailViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 5) {
+        // Display an alert view with a title and content.
+        UIAlertView *inputAlertView = [[UIAlertView alloc] initWithTitle:@"block alert title" message: @"我是详情" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:@"XXX", nil];
+        //__weak typeof(self) weakSelf = self;
+        // Add a completion block (using our category to UIAlertView).
+        [inputAlertView setCompletionBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
+            if (buttonIndex == 0) {
+                NSLog(@"cancel");
+            }
+            // If user pressed 'Add'...
+            if (buttonIndex == 1) {
+                
+                NSLog(@"XXXX");
+            }
+        }];
+        
+        [inputAlertView show];
     }
     
 }
