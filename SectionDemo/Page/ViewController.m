@@ -96,10 +96,10 @@
     }
     if (row == 5) {
         // Display an alert view with a title and content.
-        UIAlertView *inputAlertView = [[UIAlertView alloc] initWithTitle:@"block alert title" message: @"我是详情" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:@"XXX", nil];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"block alert title" message: @"我是详情" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:@"XXX", nil];
         //__weak typeof(self) weakSelf = self;
         // Add a completion block (using our category to UIAlertView).
-        [inputAlertView setCompletionBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
+        [alertView setCompletionBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
             if (buttonIndex == 0) {
                 NSLog(@"cancel");
             }
@@ -110,7 +110,7 @@
             }
         }];
         
-        [inputAlertView show];
+        [alertView show];
     }
     
 }
