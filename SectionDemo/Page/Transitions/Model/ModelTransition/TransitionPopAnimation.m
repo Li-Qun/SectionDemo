@@ -54,6 +54,9 @@
         // Move the image view
         imageSnapshot.frame = [containerView convertRect:cell.iconImageView.frame fromView:cell.iconImageView.superview];
     } completion:^(BOOL finished) {
+        if ([transitionContext transitionWasCancelled]) {
+            fromViewController.view.alpha = 1.0;
+        }
         // Clean up
         [imageSnapshot removeFromSuperview];
         fromViewController.iconImageView.hidden = NO;

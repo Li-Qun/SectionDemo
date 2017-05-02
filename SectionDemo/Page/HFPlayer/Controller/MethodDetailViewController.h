@@ -9,8 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "HFMovieView.h"
 
-@interface MethodDetailViewController : UIViewController
+typedef NS_ENUM(NSInteger, MediaStatusType){//当前视频状态
+    MediaStatusTypeUnKnown = 0,  ///未知媒体状态 请稍后再试
+    MediaStatusTypeReady   = 1, //可以播放状态
+    MediaStatusTypeFail    = 2, //加载失败
+    MediaStatusTypeWaiting = 3  //正在缓冲加载
+};
 
+
+@interface MethodDetailViewController : UIViewController
+{
+    MediaStatusType mediaStatusItem;
+}
+@property (nonatomic, strong) UIView *headView;
 @property (nonatomic, strong) HFMovieView *moviewView;
 
 @end

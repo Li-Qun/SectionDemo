@@ -10,4 +10,11 @@
 
 @interface MethodDetailViewController (Video)
 
+
+//创建 视频 视图
+- (void)createVideoHeaderView;
+
+//取消设置的video监听
+- (void)cancelVideoObservers;
+
 @end

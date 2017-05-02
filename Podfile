@@ -8,8 +8,8 @@ target 'SectionDemo' do
     pod 'ReactiveCocoa', '~> 2.5'
     pod 'Masonry' ,  '~> 1.0.2'
     pod 'MJRefresh', '~> 3.1.12'
-    #pod 'YYKit'
     pod 'YYText'
+    pod 'MBProgressHUD', '~> 0.8'
     use_frameworks!
  
 end

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,22 +37,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00027AB6A069EC9030C9C1B7C426F27E</key>
+		<key>6B1714E816AE794962516E2ECBB40A5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>19407F6B72287D8AA83CF65729A05A2A</key>
+		<key>9111924D00E2A5935100FAB1ED98ECFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A890C07ABF31403DEC8D7054CC2DB7A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B85AB73E3588BD230E656033BA379911</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>D52144DE9D7255DE912490FF5A806573</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DAD030FCFD7AF135319176A521AC1FFB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

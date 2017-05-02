@@ -35,4 +35,25 @@ typedef NS_ENUM(NSUInteger, MovieViewState) {
 @property (nonatomic, assign) MovieViewState state;
 
 
+/**
+ video 菜单按钮
+ */
+@property (nonatomic, strong)UIButton *playVideoBtn;
+@property (nonatomic, strong)UIButton *backBtn;
+@property (nonatomic, strong)NSString *videoTitle;
+
+
+/**
+ *  视频加载失败处理
+ */
+- (void)videoFailedToPrepareForPlayer;
+
+
+/**
+ 更新视频 UI状态
+
+ @param isPlay isPlay
+ */
+- (void)setVideoPlayUIStatus:(BOOL)isPlay;
+
 @end

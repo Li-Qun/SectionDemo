@@ -7,11 +7,11 @@
 //
 
 #import "MethodDetailViewController.h"
+#import "MethodDetailViewController+Video.h"
 
 @interface MethodDetailViewController ()
 
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) UIView *headView;
 
 @end
 
@@ -26,13 +26,18 @@
     }];
     
     self.tableView.tableHeaderView = self.headView;
-    [self.headView addSubview:self.moviewView];
-
+    [self createVideoHeaderView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc
+{   //当前页面消失后继续对视频对象持有的监控释放
+    [self cancelVideoObservers];
+    NSLog(@"dealloc 释放KVO监督");
 }
 
 #pragma mark - 旋转配置
