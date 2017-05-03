@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "MyURLProtocol.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,8 @@
     self.window.rootViewController = navC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [NSURLProtocol registerClass:[MyURLProtocol class]];
     
     return YES;
 }

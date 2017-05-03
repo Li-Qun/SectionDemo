@@ -12,6 +12,7 @@
 #import "FromViewController.h"
 #import "CustomRefreshViewController.h"
 #import "MethodDetailViewController.h"
+#import "BrowserViewController.h"
 #import "UIAlertView+HFBlock.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -68,6 +69,9 @@
     if (row == 5) {
         cell.textLabel.text = @"UIAlertView Block";
     }
+    if (row == 6) {
+        cell.textLabel.text = @"CustomUrlProtocol";
+    }
     return cell;
 }
 
@@ -111,6 +115,10 @@
         }];
         
         [alertView show];
+    }
+    if (row == 6) {
+        BrowserViewController *vc = [[BrowserViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
     
 }

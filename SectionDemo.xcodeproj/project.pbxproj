@@ -13,6 +13,8 @@
 		A7024D0C1E713747004C5E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0A1E713747004C5E84 /* Main.storyboard */; };
 		A7024D0E1E713747004C5E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0D1E713747004C5E84 /* Assets.xcassets */; };
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
+		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
+		A718B4C11EB9C2A5002F2EB1 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */; };
 		A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CA9F1E8A6622000638EA /* HFAnimation.m */; };
 		A780CAA31E8A6728000638EA /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA21E8A6728000638EA /* FromViewController.m */; };
 		A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA81E8A6C0A000638EA /* ToViewController.m */; };
@@ -60,6 +62,10 @@
 		A7024D101E713747004C5E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7024D121E713747004C5E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7024D191E713988004C5E84 /* SectionDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SectionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A718B4BC1EB9C2A5002F2EB1 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
+		A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
 		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
 		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
 		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
@@ -201,6 +207,17 @@
 				A7024D191E713988004C5E84 /* SectionDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A718B4BC1EB9C2A5002F2EB1 /* BrowserViewController.h */,
+				A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */,
+				A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */,
+				A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */,
+			);
+			path = CustomURLProtocol;
 			sourceTree = "<group>";
 		};
 		A780CA9B1E8A65CC000638EA /* Animation */ = {
@@ -438,6 +455,7 @@
 		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */,
 				A7A819E91E9B70B700D0C461 /* HFUIKit */,
 				A780CAF81E8D04C6000638EA /* ViewController.h */,
 				A780CAF91E8D04C6000638EA /* ViewController.m */,
@@ -593,12 +611,14 @@
 				A7A819E51E9B234500D0C461 /* MethdDetailVideoMaskImageView.m in Sources */,
 				A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
+				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
 				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
 				A7024D031E713747004C5E84 /* main.m in Sources */,
 				A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */,
 				A780CACF1E8A7776000638EA /* ActionViewController.m in Sources */,
+				A718B4C11EB9C2A5002F2EB1 /* MyURLProtocol.m in Sources */,
 				A780CB101E8F5812000638EA /* UINavigationController+Rotation.m in Sources */,
 				A7A819DC1E979EA500D0C461 /* HFReadMoreCell.m in Sources */,
 				A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */,
