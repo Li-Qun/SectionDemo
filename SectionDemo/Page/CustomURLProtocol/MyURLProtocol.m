@@ -3,10 +3,13 @@
 //  NSURLProtocolExample
 //
 //  Created by HF on 2017/5/3.
-//  Copyright © 2017年 Rocir Santiago. All rights reserved.
+//  Copyright © 2017年 HF-Liqun. All rights reserved.
 //
 
 #import "MyURLProtocol.h"
+#import "AppDelegate.h"
+#import "CachedURLResponseModel+CoreDataProperties.h"
+
 
 @interface MyURLProtocol () <NSURLConnectionDelegate>
 
@@ -42,7 +45,6 @@
  @return NSURLRequest
  */
 + (NSURLRequest *)canonicalRequestForRequest:(NSURLRequest *)request {
-    
     NSMutableURLRequest *mutableReqeust = [request mutableCopy];
     mutableReqeust = [self redirectHostInRequset:mutableReqeust];
     return mutableReqeust;
@@ -55,11 +57,38 @@
 }
 
 - (void)startLoading {
-    NSMutableURLRequest *newRequest = [self.request mutableCopy];
-    //标记"tag"，防止无限循环
-    [NSURLProtocol setProperty:@YES forKey:@"MyURLProtocolHandledKey" inRequest:newRequest];
+    //如果想直接返回缓存的结果，构建一个CachedURLResponse对象
     
-    self.connection = [NSURLConnection connectionWithRequest:newRequest delegate:self];
+    // 1.
+    CachedURLResponseModel *cachedResponse = [self cachedResponseForCurrentRequest];
+    if (cachedResponse) {
+        NSLog(@"serving response from cache");
+        
+        // 2.
+        NSData *data = cachedResponse.data;
+        NSString *mimeType = cachedResponse.mimeType;
+        NSString *encoding = cachedResponse.encoding;
+        
+        // 3.
+        NSURLResponse *response = [[NSURLResponse alloc] initWithURL:self.request.URL
+                                                            MIMEType:mimeType
+                                               expectedContentLength:data.length
+                                                    textEncodingName:encoding];
+        
+        // 4.
+        [self.client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:NSURLCacheStorageNotAllowed];
+        [self.client URLProtocol:self didLoadData:data];
+        [self.client URLProtocolDidFinishLoading:self];
+    } else {
+        // 5.
+        NSLog(@"serving response from NSURLConnection");
+        
+        NSMutableURLRequest *newRequest = [self.request mutableCopy];
+        //标记"tag"，防止无限循环
+        [NSURLProtocol setProperty:@YES forKey:@"MyURLProtocolHandledKey" inRequest:newRequest];
+        
+        self.connection = [NSURLConnection connectionWithRequest:newRequest delegate:self];
+    }
 }
 
 - (void)stopLoading {
@@ -71,14 +100,21 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
     [self.client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:NSURLCacheStorageNotAllowed];
+    
+    self.response = response;
+    self.mutableData = [[NSMutableData alloc] init];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
     [self.client URLProtocol:self didLoadData:data];
+    
+    [self.mutableData appendData:data];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     [self.client URLProtocolDidFinishLoading:self];
+    
+    [self saveCachedResponse];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
@@ -111,5 +147,52 @@
     return request;
 }
 
+- (void)saveCachedResponse {
+    NSLog(@"saving cached response");
+    
+   // if (![self.request.URL.absoluteString isEqualToString:@"cn.bing.com"]) return;
+    
+    // 1.
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
+    NSManagedObjectContext *context = delegate.managedObjectContext;
+    
+    // 2.
+    CachedURLResponseModel *cachedResponse = [NSEntityDescription insertNewObjectForEntityForName:@"CachedURLResponseModel"inManagedObjectContext:context];
+    cachedResponse.data = self.mutableData;
+    cachedResponse.url = self.request.URL.absoluteString;
+    cachedResponse.timestamp = [NSDate date];
+    cachedResponse.mimeType = self.response.MIMEType;
+    cachedResponse.encoding = self.response.textEncodingName;
+    
+    // 3.
+    NSError *error;
+    BOOL const success = [context save:&error];
+    if (!success) {
+        NSLog(@"Could not cache the response.");
+    }
+}
 
+- (CachedURLResponseModel *)cachedResponseForCurrentRequest {
+    // 1.
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
+    NSManagedObjectContext *context = delegate.managedObjectContext;
+    
+    // 2.
+    NSFetchRequest *fetchRequest = [CachedURLResponseModel fetchRequest];
+    
+    // 3.
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"url == %@", self.request.URL.absoluteString];
+    [fetchRequest setPredicate:predicate];
+    
+    // 4.
+    NSError *error;
+    NSArray *result = [context executeFetchRequest:fetchRequest error:&error];
+    
+    // 5.
+    if (result && result.count > 0) {
+        return result[0];
+    }
+    
+    return nil;
+}
 @end

@@ -25,4 +25,7 @@
 #import "RACReturnSignal.h"
 #import "Masonry.h"
 
+//local
+#import <CoreData/CoreData.h>
+
 #endif /* SectionDemo_Prefix_pch */

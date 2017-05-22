@@ -112,4 +112,7 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomURLProtocol/MyURLProtocol.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomURLProtocol/MyURLProtocol.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/AppDelegate.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/DerivedSources/CoreDataGenerated/SectionDemo/CachedURLResponseModel+CoreDataProperties.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/DerivedSources/CoreDataGenerated/SectionDemo/CachedURLResponseModel+CoreDataClass.h

@@ -14,7 +14,7 @@
 		A7024D0E1E713747004C5E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0D1E713747004C5E84 /* Assets.xcassets */; };
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
 		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
-		A718B4C11EB9C2A5002F2EB1 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */; };
+		A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */; };
 		A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CA9F1E8A6622000638EA /* HFAnimation.m */; };
 		A780CAA31E8A6728000638EA /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA21E8A6728000638EA /* FromViewController.m */; };
 		A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA81E8A6C0A000638EA /* ToViewController.m */; };
@@ -47,6 +47,8 @@
 		A7A819E81E9B234500D0C461 /* VideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819E41E9B234500D0C461 /* VideoSlider.m */; };
 		A7A819EE1E9B70B700D0C461 /* HFNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819EB1E9B70B700D0C461 /* HFNoteView.m */; };
 		A7A819EF1E9B70B700D0C461 /* UIView+GoAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */; };
+		A7B8B8E61ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */; };
+		A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B8E71ED2B24700F0ABA4 /* MyURLProtocol.m */; };
 		A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */; };
 		A7BCB3AB1E7259C200ECCDF7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */; };
 /* End PBXBuildFile section */
@@ -65,7 +67,7 @@
 		A718B4BC1EB9C2A5002F2EB1 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
-		A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
+		A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SectionDemo.xcdatamodel; sourceTree = "<group>"; };
 		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
 		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
 		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
@@ -130,6 +132,9 @@
 		A7A819EB1E9B70B700D0C461 /* HFNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFNoteView.m; sourceTree = "<group>"; };
 		A7A819EC1E9B70B700D0C461 /* UIView+GoAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoAdd.h"; sourceTree = "<group>"; };
 		A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoAdd.m"; sourceTree = "<group>"; };
+		A7B8B8E31ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CachedURLResponseModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CachedURLResponseModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A7B8B8E71ED2B24700F0ABA4 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
 		A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HFBlock.h"; sourceTree = "<group>"; };
 		A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HFBlock.m"; sourceTree = "<group>"; };
 		A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
@@ -195,6 +200,7 @@
 				A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */,
 				A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */,
 				A7024D121E713747004C5E84 /* Info.plist */,
+				A718B5021EBC950F002F2EB1 /* CoreData */,
 				A7024D011E713747004C5E84 /* Supporting Files */,
 			);
 			path = SectionDemo;
@@ -215,9 +221,28 @@
 				A718B4BC1EB9C2A5002F2EB1 /* BrowserViewController.h */,
 				A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */,
 				A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */,
-				A718B4BF1EB9C2A5002F2EB1 /* MyURLProtocol.m */,
+				A7B8B8E71ED2B24700F0ABA4 /* MyURLProtocol.m */,
 			);
 			path = CustomURLProtocol;
+			sourceTree = "<group>";
+		};
+		A718B5021EBC950F002F2EB1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */,
+				A718B5031EBC950F002F2EB1 /* CoreDataModel */,
+			);
+			name = CoreData;
+			path = Page/CoreData;
+			sourceTree = "<group>";
+		};
+		A718B5031EBC950F002F2EB1 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8B8E31ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.h */,
+				A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */,
+			);
+			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
 		A780CA9B1E8A65CC000638EA /* Animation */ = {
@@ -505,6 +530,7 @@
 					A7024CFD1E713747004C5E84 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = LR8V7G449B;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -599,9 +625,11 @@
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
+				A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */,
 				A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */,
 				A780CAF01E8CFF78000638EA /* ViewController减负.m in Sources */,
 				A7A819E81E9B234500D0C461 /* VideoSlider.m in Sources */,
+				A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */,
 				A7A819EF1E9B70B700D0C461 /* UIView+GoAdd.m in Sources */,
 				A780CACE1E8A7776000638EA /* ActionDetailViewController.m in Sources */,
 				A780CACD1E8A7776000638EA /* PushAnimation.m in Sources */,
@@ -618,7 +646,6 @@
 				A7024D031E713747004C5E84 /* main.m in Sources */,
 				A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */,
 				A780CACF1E8A7776000638EA /* ActionViewController.m in Sources */,
-				A718B4C11EB9C2A5002F2EB1 /* MyURLProtocol.m in Sources */,
 				A780CB101E8F5812000638EA /* UINavigationController+Rotation.m in Sources */,
 				A7A819DC1E979EA500D0C461 /* HFReadMoreCell.m in Sources */,
 				A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */,
@@ -626,6 +653,7 @@
 				A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */,
 				A780CAD21E8BB718000638EA /* TransitionFromViewController.m in Sources */,
 				A7A819EE1E9B70B700D0C461 /* HFNoteView.m in Sources */,
+				A7B8B8E61ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m in Sources */,
 				A780CAF71E8CFFED000638EA /* CustomRefreshViewController.m in Sources */,
 				A780CAEF1E8CFF78000638EA /* HomeBannerCell.m in Sources */,
 				A7A819E71E9B234500D0C461 /* VideoProgressive.m in Sources */,
@@ -749,6 +777,7 @@
 			baseConfigurationReference = B1564B83D24609E75663C2B9 /* Pods-SectionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LR8V7G449B;
 				GCC_PREFIX_HEADER = "SectionDemo/SectionDemo-Prefix.pch";
 				INFOPLIST_FILE = SectionDemo/Info.plist;
@@ -756,6 +785,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dailylife.SectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SectionDemo/Page/CoreData/CoreDataModel/SectionDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -764,6 +796,7 @@
 			baseConfigurationReference = 4DF7C85FC11A1C5F2989FCF6 /* Pods-SectionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LR8V7G449B;
 				GCC_PREFIX_HEADER = "SectionDemo/SectionDemo-Prefix.pch";
 				INFOPLIST_FILE = SectionDemo/Info.plist;
@@ -771,6 +804,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dailylife.SectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SectionDemo/Page/CoreData/CoreDataModel/SectionDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -796,6 +831,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */,
+			);
+			currentVersion = A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */;
+			name = SectionDemo.xcdatamodeld;
+			path = ../../SectionDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7024CF61E713747004C5E84 /* Project object */;
 }
