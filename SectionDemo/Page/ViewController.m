@@ -13,6 +13,7 @@
 #import "CustomRefreshViewController.h"
 #import "MethodDetailViewController.h"
 #import "BrowserViewController.h"
+#import "HFWindowViewController.h"
 #import "UIAlertView+HFBlock.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -72,6 +73,9 @@
     if (row == 6) {
         cell.textLabel.text = @"CustomUrlProtocol";
     }
+    if (row == 7) {
+        cell.textLabel.text = @"UIWindow 的 windowLevel";
+    }
     return cell;
 }
 
@@ -118,6 +122,10 @@
     }
     if (row == 6) {
         BrowserViewController *vc = [[BrowserViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 7) {
+        HFWindowViewController *vc = [[HFWindowViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

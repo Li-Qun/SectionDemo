@@ -49,6 +49,7 @@
 		A7A819EF1E9B70B700D0C461 /* UIView+GoAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */; };
 		A7B8B8E61ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */; };
 		A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B8E71ED2B24700F0ABA4 /* MyURLProtocol.m */; };
+		A7B8B9051ED6BE0600F0ABA4 /* HFWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B9041ED6BE0600F0ABA4 /* HFWindowViewController.m */; };
 		A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */; };
 		A7BCB3AB1E7259C200ECCDF7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */; };
 /* End PBXBuildFile section */
@@ -135,6 +136,8 @@
 		A7B8B8E31ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CachedURLResponseModel+CoreDataProperties.h"; sourceTree = "<group>"; };
 		A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CachedURLResponseModel+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A7B8B8E71ED2B24700F0ABA4 /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
+		A7B8B9031ED6BE0600F0ABA4 /* HFWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFWindowViewController.h; sourceTree = "<group>"; };
+		A7B8B9041ED6BE0600F0ABA4 /* HFWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFWindowViewController.m; sourceTree = "<group>"; };
 		A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HFBlock.h"; sourceTree = "<group>"; };
 		A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HFBlock.m"; sourceTree = "<group>"; };
 		A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
@@ -477,6 +480,23 @@
 			path = HFUIKit;
 			sourceTree = "<group>";
 		};
+		A7B8B8E91ED2EBE600F0ABA4 /* WKWebViewH5ObjC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WKWebViewH5ObjC;
+			sourceTree = "<group>";
+		};
+		A7B8B9021ED6BDBA00F0ABA4 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8B9031ED6BE0600F0ABA4 /* HFWindowViewController.h */,
+				A7B8B9041ED6BE0600F0ABA4 /* HFWindowViewController.m */,
+			);
+			name = UIWindow;
+			path = WKWebViewH5ObjC/UIWindow;
+			sourceTree = "<group>";
+		};
 		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +511,8 @@
 				A780CA9B1E8A65CC000638EA /* Animation */,
 				A780CABD1E8A7776000638EA /* Transitions */,
 				A780CAF11E8CFFB2000638EA /* CustomRefresh */,
+				A7B8B8E91ED2EBE600F0ABA4 /* WKWebViewH5ObjC */,
+				A7B8B9021ED6BDBA00F0ABA4 /* UIWindow */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -644,6 +666,7 @@
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
 				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
 				A7024D031E713747004C5E84 /* main.m in Sources */,
+				A7B8B9051ED6BE0600F0ABA4 /* HFWindowViewController.m in Sources */,
 				A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */,
 				A780CACF1E8A7776000638EA /* ActionViewController.m in Sources */,
 				A780CB101E8F5812000638EA /* UINavigationController+Rotation.m in Sources */,

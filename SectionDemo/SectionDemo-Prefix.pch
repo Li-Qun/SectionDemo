@@ -9,6 +9,13 @@
 #ifndef SectionDemo_Prefix_pch
 #define SectionDemo_Prefix_pch
 
+// 系统版本
+#define iOS10       ([[UIDevice currentDevice].systemVersion integerValue]>=10.0f)
+#define IOS9        ([[UIDevice currentDevice].systemVersion integerValue]>=9.0f)
+#define IOS8        ([[UIDevice currentDevice].systemVersion integerValue]>=8.0f)
+#define IOS7        ([[UIDevice currentDevice].systemVersion integerValue]>=7.0f)
+#define IOS6        ([[UIDevice currentDevice].systemVersion integerValue]>=6.0f
+
 //屏幕宽
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 //屏幕高
