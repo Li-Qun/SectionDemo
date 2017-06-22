@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		nzUMkxaqmAYqWxuEULeGI1E754o=
+		hs6dreYJC1nDi6Y7uaLYzrGmf4A=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -139,6 +139,14 @@
 		<data>
 		W7mvrNckutxqN8pFkWJqzDXZ308=
 		</data>
+		<key>test.html</key>
+		<data>
+		gisnHjdm3pMXuzHSr5YVFVEgCFM=
+		</data>
+		<key>test2.html</key>
+		<data>
+		Ai1W/5mH/u5FC0VZpek0MtfqtjE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -146,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nzUMkxaqmAYqWxuEULeGI1E754o=
+			hs6dreYJC1nDi6Y7uaLYzrGmf4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			yUBeb8BPrt28XgU+0ejoKciSVJ6QDU+ZNSWBeXoP9RI=
+			7ary94C6pHWMrjse4OE6D4uiD6LWBVdrAv6zmIlZVIM=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -454,6 +462,28 @@
 			<key>hash2</key>
 			<data>
 			P5az6G49EsKL3PGoOejI6xPBrZfjCV855JnA8xdU4go=
+			</data>
+		</dict>
+		<key>test.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gisnHjdm3pMXuzHSr5YVFVEgCFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			d5SY244ZBEnbcG2/rcB937AUngznF9H/AH+XJRPCohg=
+			</data>
+		</dict>
+		<key>test2.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ai1W/5mH/u5FC0VZpek0MtfqtjE=
+			</data>
+			<key>hash2</key>
+			<data>
+			YrCqLP7fvKuqSla3n3R68Zdboe+lKejdSpYyYoQGyfI=
 			</data>
 		</dict>
 	</dict>

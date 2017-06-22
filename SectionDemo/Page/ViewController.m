@@ -14,6 +14,8 @@
 #import "MethodDetailViewController.h"
 #import "BrowserViewController.h"
 #import "HFWindowViewController.h"
+#import "WKWebViewController.h"
+
 #import "UIAlertView+HFBlock.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -33,19 +35,20 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     
+    [self.view addSubview:tableView];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.view addSubview:tableView];
+    
 }
 
 #pragma mark - tableView delegate datasource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
-    return 10;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
@@ -75,6 +78,9 @@
     }
     if (row == 7) {
         cell.textLabel.text = @"UIWindow 的 windowLevel";
+    }
+    if (row == 8) {
+        cell.textLabel.text = @"WKWebView OC 与 JS 交互学习";
     }
     return cell;
 }
@@ -126,6 +132,10 @@
     }
     if (row == 7) {
         HFWindowViewController *vc = [[HFWindowViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 8) {
+        WKWebViewController *vc = [[WKWebViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

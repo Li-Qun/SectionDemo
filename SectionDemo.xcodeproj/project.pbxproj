@@ -15,6 +15,10 @@
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
 		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
 		A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */; };
+		A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D01EFB9B060030F86C /* WKWebViewController.m */; };
+		A757D5D51EFBA02C0030F86C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D31EFBA02C0030F86C /* test.html */; };
+		A757D5D61EFBA02C0030F86C /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D41EFBA02C0030F86C /* test2.html */; };
+		A757D5D91EFBAF880030F86C /* WKDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D81EFBAF880030F86C /* WKDelegateController.m */; };
 		A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CA9F1E8A6622000638EA /* HFAnimation.m */; };
 		A780CAA31E8A6728000638EA /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA21E8A6728000638EA /* FromViewController.m */; };
 		A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA81E8A6C0A000638EA /* ToViewController.m */; };
@@ -69,6 +73,12 @@
 		A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
 		A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SectionDemo.xcdatamodel; sourceTree = "<group>"; };
+		A757D5CF1EFB9B060030F86C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		A757D5D01EFB9B060030F86C /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		A757D5D31EFBA02C0030F86C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		A757D5D41EFBA02C0030F86C /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
+		A757D5D71EFBAF880030F86C /* WKDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDelegateController.h; sourceTree = "<group>"; };
+		A757D5D81EFBAF880030F86C /* WKDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDelegateController.m; sourceTree = "<group>"; };
 		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
 		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
 		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
@@ -246,6 +256,15 @@
 				A7B8B8E41ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m */,
 			);
 			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		A757D5D21EFBA02C0030F86C /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+				A757D5D31EFBA02C0030F86C /* test.html */,
+				A757D5D41EFBA02C0030F86C /* test2.html */,
+			);
+			path = resourse;
 			sourceTree = "<group>";
 		};
 		A780CA9B1E8A65CC000638EA /* Animation */ = {
@@ -483,6 +502,11 @@
 		A7B8B8E91ED2EBE600F0ABA4 /* WKWebViewH5ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				A757D5D21EFBA02C0030F86C /* resourse */,
+				A757D5CF1EFB9B060030F86C /* WKWebViewController.h */,
+				A757D5D01EFB9B060030F86C /* WKWebViewController.m */,
+				A757D5D71EFBAF880030F86C /* WKDelegateController.h */,
+				A757D5D81EFBAF880030F86C /* WKDelegateController.m */,
 			);
 			path = WKWebViewH5ObjC;
 			sourceTree = "<group>";
@@ -583,6 +607,8 @@
 				A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */,
 				A7BCB3AB1E7259C200ECCDF7 /* Image.xcassets in Resources */,
 				A7024D0E1E713747004C5E84 /* Assets.xcassets in Resources */,
+				A757D5D61EFBA02C0030F86C /* test2.html in Resources */,
+				A757D5D51EFBA02C0030F86C /* test.html in Resources */,
 				A7024D0C1E713747004C5E84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -660,11 +686,13 @@
 				A780CB041E8F47F1000638EA /* MethodDetailViewController.m in Sources */,
 				A7A819E51E9B234500D0C461 /* MethdDetailVideoMaskImageView.m in Sources */,
 				A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */,
+				A757D5D91EFBAF880030F86C /* WKDelegateController.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
 				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
 				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
+				A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */,
 				A7024D031E713747004C5E84 /* main.m in Sources */,
 				A7B8B9051ED6BE0600F0ABA4 /* HFWindowViewController.m in Sources */,
 				A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */,

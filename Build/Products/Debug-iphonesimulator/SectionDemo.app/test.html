@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iOS and Js</title>
+    <style type="text/css">
+      * {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    
+    <div style="margin-top: 100px">
+      <h1>Test how to use objective-c call js</h1><br/><br/>
+      <div><input type="button" value="call shareButton" onclick="shareClick()"></div>
+      <br/><br/>
+      <div><input type="button" value="call js alert" onclick="callJsAlert()"></div>
+      <br/>
+      <div><input type="button" value="Call js confirm" onclick="callJsConfirm()"></div><br/>
+    </div>
+    <br/>
+    <div>
+      <div><input type="button" value="Call Js prompt " onclick="callJsInput()"></div><br/>
+      <div>Click me here: <a href="http://www.baidu.com">Jump to Baidu</a></div>
+    </div>
+    
+    <br/>
+    <div id="SwiftDiv">
+      <span id="jsParamFuncSpan" style="color: red; font-size: 50px;"></span>
+    </div>
+    
+    <script type="text/javascript">
+      //JS执行window.webkit.messageHandlers.Share.postMessage(<messageBody>)
+      function callJsAlert() {
+        //WKUIDelegate 空回调 警告框代理被触发
+        alert('Objective-C call js to show alert');
+        // HFAlert是我们所注入的对象
+        window.webkit.messageHandlers.HFAlert.postMessage({body: 'call js alert in js'});
+      }
+    
+      function callJsConfirm() {
+        //WKUIDelegate 布尔回调 选择确认框代理被触发
+        if (confirm('confirm', 'Objective-C call js to show confirm')) {
+        document.getElementById('jsParamFuncSpan').innerHTML
+        = 'true';
+      } else {
+        document.getElementById('jsParamFuncSpan').innerHTML
+        = 'false';
+      }
+      
+      //HFConfirm是我们所注入的对象
+      window.webkit.messageHandlers.HFConfirm.postMessage({body: 'call js confirm in js'});
+    }
+    
+    function callJsInput() {
+      //WKUIDelegate 字符串回调 输入框代理被触发
+      var response = prompt('HFPrompt', 'Please input your name:');
+      document.getElementById('jsParamFuncSpan').innerHTML = response;
+      
+       //HFPrompt是我们所注入的对象
+      window.webkit.messageHandlers.HFPrompt.postMessage({body: response});
+    }
+    
+    function shareClick() {
+        var response = prompt('Hello');
+        window.webkit.messageHandlers.HFShare.postMessage({body:response ,title:'测试分享的标题',content:'测试分享的内容',url:'https://github.com/maying1992'});
+    }
+
+    function alertName(msg) {
+        document.getElementById('jsParamFuncSpan').innerHTML = 'name' + msg + ', nice to meet you';
+    }
+    
+      </script>
+  </body>
+</html>
