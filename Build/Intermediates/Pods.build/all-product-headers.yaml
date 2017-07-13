@@ -4,12 +4,119 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FSCalendar-Swift.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/FSCalendar/FSCalendar.framework/Headers/FSCalendar-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendar-umbrella.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/Target Support Files/FSCalendar/FSCalendar-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendar.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendar.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarAppearance.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarAppearance.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarCalculator.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarCalculator.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarCell.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarCollectionView.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarCollectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarCollectionViewLayout.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarCollectionViewLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarConstants.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarDelegationFactory.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarDelegationFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarDelegationProxy.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarDelegationProxy.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarDynamicHeader.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarDynamicHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarExtensions.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarExtensions.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarHeaderView.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarHeaderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarScopeHandle.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarScopeHandle.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarStickyHeader.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarStickyHeader.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarTransitionCoordinator.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarTransitionCoordinator.h"
+        },
+        {
+          'type': 'file',
+          'name': "FSCalendarWeekdayView.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Pods/FSCalendar/FSCalendar/FSCalendarWeekdayView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/FSCalendar/FSCalendar.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/FSCalendar.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MBProgressHUD-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
         },
         {
           'type': 'file',
@@ -25,23 +132,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MBProgressHUD.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/MBProgressHUD.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MJRefresh-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Headers/MJRefresh-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefresh-Swift.h"
         },
         {
           'type': 'file',
@@ -152,18 +259,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MJRefresh.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/MJRefresh.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -208,7 +315,7 @@
         {
           'type': 'file',
           'name': "Masonry-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Headers/Masonry-Swift.h"
         },
         {
           'type': 'file',
@@ -254,18 +361,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Masonry.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/Masonry.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Pods_SectionDemo.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Pods_SectionDemo.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -275,24 +382,24 @@
         {
           'type': 'file',
           'name': "Pods_SectionDemo-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Pods_SectionDemo.framework/Headers/Pods_SectionDemo-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Pods_SectionDemo.framework/Headers/Pods_SectionDemo-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/Pods_SectionDemo.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Pods_SectionDemo.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SectionDemo.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SectionDemo.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -672,7 +779,7 @@
         {
           'type': 'file',
           'name': "ReactiveCocoa-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa-Swift.h"
         },
         {
           'type': 'file',
@@ -783,18 +890,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/ReactiveCocoa.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/PrivateHeaders",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/PrivateHeaders",
       'contents': [
         {
           'type': 'file',
@@ -820,7 +927,29 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/YYText/YYText.framework/Headers",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Realm-Swift.h",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/YYText/YYText.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -850,7 +979,7 @@
         {
           'type': 'file',
           'name': "YYText-Swift.h",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/YYText/YYText.framework/Headers/YYText-Swift.h"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/YYText/YYText.framework/Headers/YYText-Swift.h"
         },
         {
           'type': 'file',
@@ -961,12 +1090,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphonesimulator/YYText/YYText.framework/Modules",
+      'name': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/YYText/YYText.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/YYText.build/module.modulemap"
+          'external-contents': "/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/YYText.build/module.modulemap"
         }
       ]
     }

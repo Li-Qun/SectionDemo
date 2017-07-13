@@ -35,7 +35,6 @@ NSString * const kHFReadMoreCellID = @"kHFReadMoreCellID";
 - (void)setContent:(NSString *)content isExpand:(BOOL)isExpand
 {
     NSMutableAttributedString *text = [NSMutableAttributedString new];
-    
     NSMutableAttributedString *one = [[NSMutableAttributedString alloc] initWithString: content];
     
     [text appendAttributedString:one];

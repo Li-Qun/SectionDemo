@@ -1,5 +1,5 @@
 //
-//  HFMyBasicInfoViewController.h
+//  HFRealmViewController.h
 //  SectionDemo
 //
 //  Created by HF on 2017/7/6.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HFMyBasicInfoViewController : UIViewController
+@interface HFRealmViewController : UIViewController
 
 @end

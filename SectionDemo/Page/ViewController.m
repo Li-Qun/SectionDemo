@@ -15,7 +15,7 @@
 #import "BrowserViewController.h"
 #import "HFWindowViewController.h"
 #import "WKWebViewController.h"
-
+#import "ThirdSDKViewController.h"
 #import "UIAlertView+HFBlock.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -48,7 +48,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
-    return 2;
+    return 20;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
@@ -81,6 +81,9 @@
     }
     if (row == 8) {
         cell.textLabel.text = @"WKWebView OC 与 JS 交互学习";
+    }
+    if (row == 9) {
+        cell.textLabel.text = @"Realm 第三方数据库 基本使用";
     }
     return cell;
 }
@@ -138,7 +141,10 @@
         WKWebViewController *vc = [[WKWebViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
-    
+    if (row == 9) {
+        ThirdSDKViewController*vc = [ThirdSDKViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

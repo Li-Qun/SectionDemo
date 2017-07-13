@@ -2,7 +2,7 @@
 //  CachedURLResponseModel+CoreDataClass.h
 //  
 //
-//  Created by HF on 2017/7/12.
+//  Created by HF on 2017/7/13.
 //
 //  This file was automatically generated and should not be edited.
 //

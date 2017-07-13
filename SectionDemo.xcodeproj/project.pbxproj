@@ -15,10 +15,15 @@
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
 		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
 		A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */; };
+		A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A730A9A71F1769F300945DDC /* UIButton+Block.m */; };
 		A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D01EFB9B060030F86C /* WKWebViewController.m */; };
 		A757D5D51EFBA02C0030F86C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D31EFBA02C0030F86C /* test.html */; };
 		A757D5D61EFBA02C0030F86C /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D41EFBA02C0030F86C /* test2.html */; };
 		A757D5D91EFBAF880030F86C /* WKDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D81EFBAF880030F86C /* WKDelegateController.m */; };
+		A765C5EE1F1763160006059D /* HFRealmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A765C5E61F1763160006059D /* HFRealmViewController.m */; };
+		A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A765C5E81F1763160006059D /* ThirdSDKViewController.m */; };
+		A765C5F01F1763160006059D /* HFDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A765C5EB1F1763160006059D /* HFDatabase.m */; };
+		A765C5F11F1763160006059D /* HFUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A765C5ED1F1763160006059D /* HFUser.m */; };
 		A780CAA01E8A6622000638EA /* HFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CA9F1E8A6622000638EA /* HFAnimation.m */; };
 		A780CAA31E8A6728000638EA /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA21E8A6728000638EA /* FromViewController.m */; };
 		A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAA81E8A6C0A000638EA /* ToViewController.m */; };
@@ -73,12 +78,22 @@
 		A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
 		A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SectionDemo.xcdatamodel; sourceTree = "<group>"; };
+		A730A9A61F1769F300945DDC /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		A730A9A71F1769F300945DDC /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		A757D5CF1EFB9B060030F86C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		A757D5D01EFB9B060030F86C /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		A757D5D31EFBA02C0030F86C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		A757D5D41EFBA02C0030F86C /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
 		A757D5D71EFBAF880030F86C /* WKDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDelegateController.h; sourceTree = "<group>"; };
 		A757D5D81EFBAF880030F86C /* WKDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKDelegateController.m; sourceTree = "<group>"; };
+		A765C5E51F1763160006059D /* HFRealmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFRealmViewController.h; sourceTree = "<group>"; };
+		A765C5E61F1763160006059D /* HFRealmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFRealmViewController.m; sourceTree = "<group>"; };
+		A765C5E71F1763160006059D /* ThirdSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSDKViewController.h; sourceTree = "<group>"; };
+		A765C5E81F1763160006059D /* ThirdSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSDKViewController.m; sourceTree = "<group>"; };
+		A765C5EA1F1763160006059D /* HFDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDatabase.h; sourceTree = "<group>"; };
+		A765C5EB1F1763160006059D /* HFDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDatabase.m; sourceTree = "<group>"; };
+		A765C5EC1F1763160006059D /* HFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFUser.h; sourceTree = "<group>"; };
+		A765C5ED1F1763160006059D /* HFUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFUser.m; sourceTree = "<group>"; };
 		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
 		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
 		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
@@ -265,6 +280,37 @@
 				A757D5D41EFBA02C0030F86C /* test2.html */,
 			);
 			path = resourse;
+			sourceTree = "<group>";
+		};
+		A765C5E31F1763160006059D /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A765C5E41F1763160006059D /* Controller */,
+				A765C5E91F1763160006059D /* Model */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		A765C5E41F1763160006059D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A765C5E51F1763160006059D /* HFRealmViewController.h */,
+				A765C5E61F1763160006059D /* HFRealmViewController.m */,
+				A765C5E71F1763160006059D /* ThirdSDKViewController.h */,
+				A765C5E81F1763160006059D /* ThirdSDKViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A765C5E91F1763160006059D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A765C5EA1F1763160006059D /* HFDatabase.h */,
+				A765C5EB1F1763160006059D /* HFDatabase.m */,
+				A765C5EC1F1763160006059D /* HFUser.h */,
+				A765C5ED1F1763160006059D /* HFUser.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A780CA9B1E8A65CC000638EA /* Animation */ = {
@@ -495,6 +541,8 @@
 				A7A819ED1E9B70B700D0C461 /* UIView+GoAdd.m */,
 				A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */,
 				A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */,
+				A730A9A61F1769F300945DDC /* UIButton+Block.h */,
+				A730A9A71F1769F300945DDC /* UIButton+Block.m */,
 			);
 			path = HFUIKit;
 			sourceTree = "<group>";
@@ -524,6 +572,7 @@
 		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				A765C5E31F1763160006059D /* ThirdSDK */,
 				A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */,
 				A7A819E91E9B70B700D0C461 /* HFUIKit */,
 				A780CAF81E8D04C6000638EA /* ViewController.h */,
@@ -643,7 +692,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B2D349DA1432112D2DC6F459 /* [CP] Copy Pods Resources */ = {
@@ -671,6 +720,7 @@
 				A780CAFA1E8D04C6000638EA /* ViewController.m in Sources */,
 				A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */,
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
+				A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
 				A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */,
@@ -690,7 +740,9 @@
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
 				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
+				A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
+				A765C5F11F1763160006059D /* HFUser.m in Sources */,
 				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
 				A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */,
 				A7024D031E713747004C5E84 /* main.m in Sources */,
@@ -702,11 +754,13 @@
 				A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */,
 				A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */,
 				A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */,
+				A765C5EE1F1763160006059D /* HFRealmViewController.m in Sources */,
 				A780CAD21E8BB718000638EA /* TransitionFromViewController.m in Sources */,
 				A7A819EE1E9B70B700D0C461 /* HFNoteView.m in Sources */,
 				A7B8B8E61ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m in Sources */,
 				A780CAF71E8CFFED000638EA /* CustomRefreshViewController.m in Sources */,
 				A780CAEF1E8CFF78000638EA /* HomeBannerCell.m in Sources */,
+				A765C5F01F1763160006059D /* HFDatabase.m in Sources */,
 				A7A819E71E9B234500D0C461 /* VideoProgressive.m in Sources */,
 				A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */,
 				A780CB071E8F4D32000638EA /* HFPlayerView.m in Sources */,

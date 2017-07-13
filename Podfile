@@ -1,3 +1,4 @@
+platform:ios, '8.0'
 
 # ignore all warnings from all pods
 inhibit_all_warnings!
@@ -10,6 +11,8 @@ target 'SectionDemo' do
     pod 'MJRefresh', '~> 3.1.12'
     pod 'YYText'
     pod 'MBProgressHUD', '~> 0.8'
+    #pod 'FSCalendar'
+    pod 'Realm', '~> 2.8.3'
     use_frameworks!
  
 end
