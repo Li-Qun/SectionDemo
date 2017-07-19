@@ -261,7 +261,7 @@ typedef void (^_FDViewControllerWillAppearInjectBlock)(UIViewController *viewCon
 
 - (BOOL)fd_prefersNavigationBarHidden
 {
-    return  YES;//[objc_getAssociatedObject(self, _cmd) boolValue];
+    return [objc_getAssociatedObject(self, _cmd) boolValue];
 }
 
 - (void)setFd_prefersNavigationBarHidden:(BOOL)hidden

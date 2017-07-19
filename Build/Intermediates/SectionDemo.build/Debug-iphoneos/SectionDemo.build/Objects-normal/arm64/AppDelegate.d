@@ -166,5 +166,4 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIView+GoAdd.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/AppDelegate.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/ViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomURLProtocol/MyURLProtocol.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFNavigationController.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomURLProtocol/MyURLProtocol.h

@@ -17,6 +17,7 @@
 #import "WKWebViewController.h"
 #import "ThirdSDKViewController.h"
 #import "UIAlertView+HFBlock.h"
+#import "HFSettingViewController.h"
 
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -85,6 +86,9 @@
     if (row == 9) {
         cell.textLabel.text = @"Realm 第三方数据库 基本使用";
     }
+    if (row == 10) {
+         cell.textLabel.text = @"组织设置";
+    }
     return cell;
 }
 
@@ -145,6 +149,11 @@
  
         ThirdSDKViewController*vc = [ThirdSDKViewController new];
         vc.title  =@"哈哈";
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 10) {
+        HFSettingViewController*vc = [HFSettingViewController new];
+        vc.title  =@"设置";
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

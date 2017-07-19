@@ -15,6 +15,7 @@
 		A7024D111E713747004C5E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7024D0F1E713747004C5E84 /* LaunchScreen.storyboard */; };
 		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
 		A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */; };
+		A71BE3BD1F1F4497008041EA /* HFSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BE3BC1F1F4497008041EA /* HFSettingCell.m */; };
 		A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A730A9A71F1769F300945DDC /* UIButton+Block.m */; };
 		A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D01EFB9B060030F86C /* WKWebViewController.m */; };
 		A757D5D51EFBA02C0030F86C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D31EFBA02C0030F86C /* test.html */; };
@@ -69,6 +70,9 @@
 		A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD21F1CA3510080F338 /* TableViewCacheViewController.m */; };
 		A7E50AD61F1CA4E30080F338 /* FreedomTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */; };
 		A7E50AD91F1CC62F0080F338 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD81F1CC62F0080F338 /* TestViewController.m */; };
+		A7E620BA1F1F369600D900EC /* HFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E620B91F1F369600D900EC /* HFSettingViewController.m */; };
+		A7E620BD1F1F36CB00D900EC /* HFSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E620BC1F1F36CB00D900EC /* HFSettingItem.m */; };
+		A7E620C01F1F3B5600D900EC /* HFSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E620BF1F1F3B5600D900EC /* HFSettingGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +90,8 @@
 		A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		A718B4BE1EB9C2A5002F2EB1 /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
 		A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SectionDemo.xcdatamodel; sourceTree = "<group>"; };
+		A71BE3BB1F1F4497008041EA /* HFSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSettingCell.h; sourceTree = "<group>"; };
+		A71BE3BC1F1F4497008041EA /* HFSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSettingCell.m; sourceTree = "<group>"; };
 		A730A9A61F1769F300945DDC /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
 		A730A9A71F1769F300945DDC /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		A757D5CF1EFB9B060030F86C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
@@ -190,6 +196,12 @@
 		A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreedomTextCell.m; sourceTree = "<group>"; };
 		A7E50AD71F1CC62F0080F338 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		A7E50AD81F1CC62F0080F338 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A7E620B81F1F369600D900EC /* HFSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSettingViewController.h; sourceTree = "<group>"; };
+		A7E620B91F1F369600D900EC /* HFSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSettingViewController.m; sourceTree = "<group>"; };
+		A7E620BB1F1F36CB00D900EC /* HFSettingItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSettingItem.h; sourceTree = "<group>"; };
+		A7E620BC1F1F36CB00D900EC /* HFSettingItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSettingItem.m; sourceTree = "<group>"; };
+		A7E620BE1F1F3B5600D900EC /* HFSettingGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSettingGroup.h; sourceTree = "<group>"; };
+		A7E620BF1F1F3B5600D900EC /* HFSettingGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSettingGroup.m; sourceTree = "<group>"; };
 		B1564B83D24609E75663C2B9 /* Pods-SectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SectionDemo/Pods-SectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E20D7E5B06C8A592E6FEF05A /* Pods_SectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -601,6 +613,7 @@
 		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				A7E620B41F1F368200D900EC /* Setting */,
 				A765C5E31F1763160006059D /* ThirdSDK */,
 				A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */,
 				A7A819E91E9B70B700D0C461 /* HFUIKit */,
@@ -644,6 +657,45 @@
 				A7E50ACC1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A7E620B41F1F368200D900EC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A7E620B51F1F368200D900EC /* Model */,
+				A7E620B61F1F368200D900EC /* View */,
+				A7E620B71F1F368200D900EC /* ViewController */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		A7E620B51F1F368200D900EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7E620BE1F1F3B5600D900EC /* HFSettingGroup.h */,
+				A7E620BF1F1F3B5600D900EC /* HFSettingGroup.m */,
+				A7E620BB1F1F36CB00D900EC /* HFSettingItem.h */,
+				A7E620BC1F1F36CB00D900EC /* HFSettingItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7E620B61F1F368200D900EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A71BE3BB1F1F4497008041EA /* HFSettingCell.h */,
+				A71BE3BC1F1F4497008041EA /* HFSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7E620B71F1F368200D900EC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A7E620B81F1F369600D900EC /* HFSettingViewController.h */,
+				A7E620B91F1F369600D900EC /* HFSettingViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -779,12 +831,15 @@
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
+				A7E620BD1F1F36CB00D900EC /* HFSettingItem.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
+				A7E620BA1F1F369600D900EC /* HFSettingViewController.m in Sources */,
 				A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */,
 				A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */,
 				A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */,
 				A780CAF01E8CFF78000638EA /* ViewController减负.m in Sources */,
 				A7A819E81E9B234500D0C461 /* VideoSlider.m in Sources */,
+				A7E620C01F1F3B5600D900EC /* HFSettingGroup.m in Sources */,
 				A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */,
 				A7E50AD01F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				A7E50AD61F1CA4E30080F338 /* FreedomTextCell.m in Sources */,
@@ -800,6 +855,7 @@
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
 				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
+				A71BE3BD1F1F4497008041EA /* HFSettingCell.m in Sources */,
 				A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
 				A7E50AD91F1CC62F0080F338 /* TestViewController.m in Sources */,
