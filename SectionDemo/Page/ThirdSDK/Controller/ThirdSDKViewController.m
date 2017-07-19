@@ -2,12 +2,13 @@
 //  ThirdSDKViewController.m
 //  SectionDemo
 //
-//  Created by HF on 2017/7/4.
+//  Created by HF on  2017/7/4.
 //  Copyright © 2017年 HF-Liqun. All rights reserved.
 //
 
 #import "ThirdSDKViewController.h"
-#import "HFRealmViewController.h"
+#import "TableViewCacheViewController.h"
+#import "UIButton+Block.h"
 
 @interface ThirdSDKViewController ()
 @property (nonatomic, strong) UIButton *submitButton;
@@ -38,13 +39,6 @@
     }];
 }
 
-- (void)action:(id)sender
-{
-    HFRealmViewController *vc = [HFRealmViewController new];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
-
 #pragma mark - getter setter
 
 - (UIButton *)submitButton
@@ -58,7 +52,13 @@
         _submitButton.layer.cornerRadius = 2.0;
         //TODO:
         _submitButton.backgroundColor = [UIColor blackColor];
-        [_submitButton addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];
+        
+        __weak typeof(self) weakSelf = self;
+        [_submitButton handelWithBlock:^(id sender) {
+            
+            TableViewCacheViewController *vc = [TableViewCacheViewController new];
+            [weakSelf.navigationController pushViewController:vc animated:YES];
+        }];
     }
     return _submitButton;
 }

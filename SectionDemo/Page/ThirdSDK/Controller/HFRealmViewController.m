@@ -18,8 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [HFDatabase creatDataBaseWithName:@"demoTable1"];
-//    NSLog(@"%@",[RLMRealmConfiguration defaultConfiguration].fileURL);
+    return;
+    [HFDatabase creatDataBaseWithName:@"demoTable1"];
+    NSLog(@"%@",[RLMRealmConfiguration defaultConfiguration].fileURL);
     
     
     HFUser *user = [[HFUser alloc]init];

@@ -61,6 +61,14 @@
 		A7B8B9051ED6BE0600F0ABA4 /* HFWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8B9041ED6BE0600F0ABA4 /* HFWindowViewController.m */; };
 		A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */; };
 		A7BCB3AB1E7259C200ECCDF7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */; };
+		A7E50AC21F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AC11F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		A7E50ACD1F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AC61F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.m */; };
+		A7E50ACE1F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AC81F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m */; };
+		A7E50ACF1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50ACA1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m */; };
+		A7E50AD01F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50ACC1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD21F1CA3510080F338 /* TableViewCacheViewController.m */; };
+		A7E50AD61F1CA4E30080F338 /* FreedomTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */; };
+		A7E50AD91F1CC62F0080F338 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E50AD81F1CC62F0080F338 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +174,22 @@
 		A7B9FC311EB8386000D70F81 /* UIAlertView+HFBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HFBlock.h"; sourceTree = "<group>"; };
 		A7B9FC321EB8386000D70F81 /* UIAlertView+HFBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HFBlock.m"; sourceTree = "<group>"; };
 		A7BCB3AA1E7259C200ECCDF7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		A7E50AC01F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		A7E50AC11F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		A7E50AC51F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		A7E50AC61F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		A7E50AC71F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		A7E50AC81F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		A7E50AC91F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		A7E50ACA1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		A7E50ACB1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		A7E50ACC1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		A7E50AD11F1CA3510080F338 /* TableViewCacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCacheViewController.h; sourceTree = "<group>"; };
+		A7E50AD21F1CA3510080F338 /* TableViewCacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCacheViewController.m; sourceTree = "<group>"; };
+		A7E50AD41F1CA4E30080F338 /* FreedomTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreedomTextCell.h; sourceTree = "<group>"; };
+		A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreedomTextCell.m; sourceTree = "<group>"; };
+		A7E50AD71F1CC62F0080F338 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A7E50AD81F1CC62F0080F338 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		B1564B83D24609E75663C2B9 /* Pods-SectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SectionDemo/Pods-SectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E20D7E5B06C8A592E6FEF05A /* Pods_SectionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -285,6 +309,7 @@
 		A765C5E31F1763160006059D /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				A7E50AC31F1CA1ED0080F338 /* View */,
 				A765C5E41F1763160006059D /* Controller */,
 				A765C5E91F1763160006059D /* Model */,
 			);
@@ -298,6 +323,10 @@
 				A765C5E61F1763160006059D /* HFRealmViewController.m */,
 				A765C5E71F1763160006059D /* ThirdSDKViewController.h */,
 				A765C5E81F1763160006059D /* ThirdSDKViewController.m */,
+				A7E50AD11F1CA3510080F338 /* TableViewCacheViewController.h */,
+				A7E50AD21F1CA3510080F338 /* TableViewCacheViewController.m */,
+				A7E50AD71F1CC62F0080F338 /* TestViewController.h */,
+				A7E50AD81F1CC62F0080F338 /* TestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -577,6 +606,8 @@
 				A7A819E91E9B70B700D0C461 /* HFUIKit */,
 				A780CAF81E8D04C6000638EA /* ViewController.h */,
 				A780CAF91E8D04C6000638EA /* ViewController.m */,
+				A7E50AC01F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.h */,
+				A7E50AC11F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m */,
 				A780CB0E1E8F5812000638EA /* UINavigationController+Rotation.h */,
 				A780CB0F1E8F5812000638EA /* UINavigationController+Rotation.m */,
 				A780CAFE1E8F47B5000638EA /* HFPlayer */,
@@ -588,6 +619,31 @@
 				A7B8B9021ED6BDBA00F0ABA4 /* UIWindow */,
 			);
 			path = Page;
+			sourceTree = "<group>";
+		};
+		A7E50AC31F1CA1ED0080F338 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7E50AC41F1CA1ED0080F338 /* Category */,
+				A7E50AD41F1CA4E30080F338 /* FreedomTextCell.h */,
+				A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7E50AC41F1CA1ED0080F338 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A7E50AC51F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.h */,
+				A7E50AC61F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.m */,
+				A7E50AC71F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.h */,
+				A7E50AC81F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m */,
+				A7E50AC91F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.h */,
+				A7E50ACA1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m */,
+				A7E50ACB1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				A7E50ACC1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -717,17 +773,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E50AC21F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				A780CAFA1E8D04C6000638EA /* ViewController.m in Sources */,
 				A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */,
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
+				A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */,
 				A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */,
 				A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */,
 				A780CAF01E8CFF78000638EA /* ViewController减负.m in Sources */,
 				A7A819E81E9B234500D0C461 /* VideoSlider.m in Sources */,
 				A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */,
+				A7E50AD01F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				A7E50AD61F1CA4E30080F338 /* FreedomTextCell.m in Sources */,
 				A7A819EF1E9B70B700D0C461 /* UIView+GoAdd.m in Sources */,
 				A780CACE1E8A7776000638EA /* ActionDetailViewController.m in Sources */,
 				A780CACD1E8A7776000638EA /* PushAnimation.m in Sources */,
@@ -742,6 +802,7 @@
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */,
 				A7024D061E713747004C5E84 /* AppDelegate.m in Sources */,
+				A7E50AD91F1CC62F0080F338 /* TestViewController.m in Sources */,
 				A765C5F11F1763160006059D /* HFUser.m in Sources */,
 				A780CAA31E8A6728000638EA /* FromViewController.m in Sources */,
 				A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */,
@@ -752,18 +813,21 @@
 				A780CB101E8F5812000638EA /* UINavigationController+Rotation.m in Sources */,
 				A7A819DC1E979EA500D0C461 /* HFReadMoreCell.m in Sources */,
 				A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */,
+				A7E50ACE1F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */,
 				A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */,
 				A765C5EE1F1763160006059D /* HFRealmViewController.m in Sources */,
 				A780CAD21E8BB718000638EA /* TransitionFromViewController.m in Sources */,
 				A7A819EE1E9B70B700D0C461 /* HFNoteView.m in Sources */,
 				A7B8B8E61ED2B1E700F0ABA4 /* CachedURLResponseModel+CoreDataProperties.m in Sources */,
+				A7E50ACF1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				A780CAF71E8CFFED000638EA /* CustomRefreshViewController.m in Sources */,
 				A780CAEF1E8CFF78000638EA /* HomeBannerCell.m in Sources */,
 				A765C5F01F1763160006059D /* HFDatabase.m in Sources */,
 				A7A819E71E9B234500D0C461 /* VideoProgressive.m in Sources */,
 				A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */,
 				A780CB071E8F4D32000638EA /* HFPlayerView.m in Sources */,
+				A7E50ACD1F1CA1ED0080F338 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,6 +34,8 @@
 #import <Realm/Realm.h>
 //local
 #import <CoreData/CoreData.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UITableView+FDTemplateLayoutCell.h"
 
 #import "UIView+GoAdd.h"
 

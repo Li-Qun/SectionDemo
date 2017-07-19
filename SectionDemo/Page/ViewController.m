@@ -18,6 +18,7 @@
 #import "ThirdSDKViewController.h"
 #import "UIAlertView+HFBlock.h"
 
+
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 {
     UITableView *tableView;
@@ -41,7 +42,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
 }
 
 #pragma mark - tableView delegate datasource
@@ -142,7 +142,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
     if (row == 9) {
+ 
         ThirdSDKViewController*vc = [ThirdSDKViewController new];
+        vc.title  =@"哈哈";
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

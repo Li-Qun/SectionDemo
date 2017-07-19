@@ -25,7 +25,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [NSURLProtocol registerClass:[MyURLProtocol class]];
+   // [NSURLProtocol registerClass:[MyURLProtocol class]];
     
     return YES;
 }
