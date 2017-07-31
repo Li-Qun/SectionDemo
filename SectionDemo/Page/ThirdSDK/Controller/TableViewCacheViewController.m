@@ -8,6 +8,8 @@
 
 #import "TableViewCacheViewController.h"
 #import "FreedomTextCell.h"
+#import "HFChartLineCell.h"
+#import "TestViewController.h"
 
 @interface TableViewCacheViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -71,31 +73,47 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
-    return self.dataArray.count;
+    if (section == 0) {
+        return 0;
+        //return self.dataArray.count;
+    } else {
+        return 1;
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [tableView fd_heightForCellWithIdentifier:kFreedomTextCellId cacheByIndexPath:indexPath configuration:^(FreedomTextCell *cell) {
-        [self configureCell:cell atIndexPath:indexPath];
-    }];
+    if (indexPath.section == 0) {
+        return [tableView fd_heightForCellWithIdentifier:kFreedomTextCellId cacheByIndexPath:indexPath configuration:^(FreedomTextCell *cell) {
+            [self configureCell:cell atIndexPath:indexPath];
+        }];
+    } else {
+      return 45 *3 + 45;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
-     FreedomTextCell *cell = [tableView dequeueReusableCellWithIdentifier:kFreedomTextCellId]  ;
-    [self configureCell:cell atIndexPath:indexPath];
-     return cell;
+    if (indexPath.section == 0)  {
+        FreedomTextCell *cell = [tableView dequeueReusableCellWithIdentifier:kFreedomTextCellId]  ;
+        [self configureCell:cell atIndexPath:indexPath];
+        return cell;
+    } else {
+        HFChartLineCell *cell = [tableView dequeueReusableCellWithIdentifier:kHFChartLineCellId] ;
+        [cell configUI:indexPath];
+        return cell;
+    }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    TestViewController *vc = [TestViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)configureCell:(FreedomTextCell *)cell atIndexPath:(NSIndexPath *)indexPath {
@@ -116,6 +134,7 @@
         
         
         [_tableView registerClass:[FreedomTextCell class] forCellReuseIdentifier:kFreedomTextCellId];
+        [_tableView registerClass:[HFChartLineCell class] forCellReuseIdentifier:kHFChartLineCellId];
     }
     return  _tableView;
 }

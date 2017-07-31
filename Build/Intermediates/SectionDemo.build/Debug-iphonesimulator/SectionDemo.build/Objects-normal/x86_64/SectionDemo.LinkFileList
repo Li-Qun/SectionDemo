@@ -4,9 +4,11 @@
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TransitionPopAnimation.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/ThirdSDKViewController.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HomeTableViewDataSource.o
+/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFChartConst.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFSettingItem.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFMovieView.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFSettingViewController.o
+/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFLineChart.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TableViewCacheViewController.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/MyURLProtocol.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TransitionNavigationPerformer.o
@@ -28,8 +30,10 @@
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/UIAlertView+HFBlock.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/WKDelegateController.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TransitionToViewController.o
+/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFChart.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/BrowserViewController.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/NavigationPerfomer.o
+/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFSettingCell.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/UIButton+Block.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/AppDelegate.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TestViewController.o
@@ -44,6 +48,7 @@
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFReadMoreCell.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/MethodDetailVideoToolBarView.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/UITableView+FDKeyedHeightCache.o
+/Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFChartLineCell.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TransitionCell.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/TransitionPushAnimation.o
 /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Intermediates/SectionDemo.build/Debug-iphonesimulator/SectionDemo.build/Objects-normal/x86_64/HFRealmViewController.o

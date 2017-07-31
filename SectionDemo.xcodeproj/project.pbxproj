@@ -50,6 +50,10 @@
 		A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CB091E8F4F3F000638EA /* HFMovieView.m */; };
 		A780CB0D1E8F54BC000638EA /* MethodDetailViewController+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CB0C1E8F54BC000638EA /* MethodDetailViewController+Video.m */; };
 		A780CB101E8F5812000638EA /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CB0F1E8F5812000638EA /* UINavigationController+Rotation.m */; };
+		A7A590511F2C682D00F5226E /* HFChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A590501F2C682D00F5226E /* HFChart.m */; };
+		A7A590541F2C684300F5226E /* HFLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A590531F2C684300F5226E /* HFLineChart.m */; };
+		A7A5905A1F2C6A9C00F5226E /* HFChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A590591F2C6A9C00F5226E /* HFChartConst.m */; };
+		A7A5905D1F2C75D300F5226E /* HFChartLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5905C1F2C75D300F5226E /* HFChartLineCell.m */; };
 		A7A819DC1E979EA500D0C461 /* HFReadMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819DB1E979EA500D0C461 /* HFReadMoreCell.m */; };
 		A7A819E51E9B234500D0C461 /* MethdDetailVideoMaskImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819DE1E9B234500D0C461 /* MethdDetailVideoMaskImageView.m */; };
 		A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A819E01E9B234500D0C461 /* MethodDetailVideoToolBarView.m */; };
@@ -158,6 +162,14 @@
 		A780CB0C1E8F54BC000638EA /* MethodDetailViewController+Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MethodDetailViewController+Video.m"; sourceTree = "<group>"; };
 		A780CB0E1E8F5812000638EA /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
 		A780CB0F1E8F5812000638EA /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
+		A7A5904F1F2C682D00F5226E /* HFChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFChart.h; sourceTree = "<group>"; };
+		A7A590501F2C682D00F5226E /* HFChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFChart.m; sourceTree = "<group>"; };
+		A7A590521F2C684300F5226E /* HFLineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFLineChart.h; sourceTree = "<group>"; };
+		A7A590531F2C684300F5226E /* HFLineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFLineChart.m; sourceTree = "<group>"; };
+		A7A590581F2C6A9C00F5226E /* HFChartConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFChartConst.h; sourceTree = "<group>"; };
+		A7A590591F2C6A9C00F5226E /* HFChartConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFChartConst.m; sourceTree = "<group>"; };
+		A7A5905B1F2C75D300F5226E /* HFChartLineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFChartLineCell.h; sourceTree = "<group>"; };
+		A7A5905C1F2C75D300F5226E /* HFChartLineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFChartLineCell.m; sourceTree = "<group>"; };
 		A7A819DA1E979EA500D0C461 /* HFReadMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFReadMoreCell.h; sourceTree = "<group>"; };
 		A7A819DB1E979EA500D0C461 /* HFReadMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFReadMoreCell.m; sourceTree = "<group>"; };
 		A7A819DD1E9B234500D0C461 /* MethdDetailVideoMaskImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethdDetailVideoMaskImageView.h; sourceTree = "<group>"; };
@@ -573,6 +585,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A7A5904E1F2C67DE00F5226E /* createLine */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5904F1F2C682D00F5226E /* HFChart.h */,
+				A7A590501F2C682D00F5226E /* HFChart.m */,
+				A7A590581F2C6A9C00F5226E /* HFChartConst.h */,
+				A7A590591F2C6A9C00F5226E /* HFChartConst.m */,
+				A7A590521F2C684300F5226E /* HFLineChart.h */,
+				A7A590531F2C684300F5226E /* HFLineChart.m */,
+			);
+			path = createLine;
+			sourceTree = "<group>";
+		};
 		A7A819E91E9B70B700D0C461 /* HFUIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,9 +662,12 @@
 		A7E50AC31F1CA1ED0080F338 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A7A5904E1F2C67DE00F5226E /* createLine */,
 				A7E50AC41F1CA1ED0080F338 /* Category */,
 				A7E50AD41F1CA4E30080F338 /* FreedomTextCell.h */,
 				A7E50AD51F1CA4E30080F338 /* FreedomTextCell.m */,
+				A7A5905B1F2C75D300F5226E /* HFChartLineCell.h */,
+				A7A5905C1F2C75D300F5226E /* HFChartLineCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -831,9 +859,11 @@
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
+				A7A5905A1F2C6A9C00F5226E /* HFChartConst.m in Sources */,
 				A7E620BD1F1F36CB00D900EC /* HFSettingItem.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
 				A7E620BA1F1F369600D900EC /* HFSettingViewController.m in Sources */,
+				A7A590541F2C684300F5226E /* HFLineChart.m in Sources */,
 				A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */,
 				A7B8B8E81ED2B24700F0ABA4 /* MyURLProtocol.m in Sources */,
 				A780CAE21E8BC8BF000638EA /* TransitionNavigationPerformer.m in Sources */,
@@ -853,6 +883,7 @@
 				A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */,
 				A757D5D91EFBAF880030F86C /* WKDelegateController.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
+				A7A590511F2C682D00F5226E /* HFChart.m in Sources */,
 				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A71BE3BD1F1F4497008041EA /* HFSettingCell.m in Sources */,
@@ -870,6 +901,7 @@
 				A7A819DC1E979EA500D0C461 /* HFReadMoreCell.m in Sources */,
 				A7A819E61E9B234500D0C461 /* MethodDetailVideoToolBarView.m in Sources */,
 				A7E50ACE1F1CA1ED0080F338 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				A7A5905D1F2C75D300F5226E /* HFChartLineCell.m in Sources */,
 				A780CAD81E8BB784000638EA /* TransitionCell.m in Sources */,
 				A780CADC1E8BC0A1000638EA /* TransitionPushAnimation.m in Sources */,
 				A765C5EE1F1763160006059D /* HFRealmViewController.m in Sources */,

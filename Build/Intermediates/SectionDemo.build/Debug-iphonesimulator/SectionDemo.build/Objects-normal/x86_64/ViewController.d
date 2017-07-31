@@ -176,4 +176,5 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/WKWebViewH5ObjC/UIWindow/HFWindowViewController.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/WKWebViewH5ObjC/WKWebViewController.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/Controller/ThirdSDKViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIAlertView+HFBlock.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIAlertView+HFBlock.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Setting/ViewController/HFSettingViewController.h
