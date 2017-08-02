@@ -18,6 +18,7 @@
 #import "ThirdSDKViewController.h"
 #import "UIAlertView+HFBlock.h"
 #import "HFSettingViewController.h"
+#import "HFChartViewController.h"
 
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
@@ -42,6 +43,9 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    if (@available(iOS 11, *)) {
+       self.navigationController.navigationBar.prefersLargeTitles = YES;
+    }
     [super viewWillAppear:animated];
 }
 
@@ -88,6 +92,9 @@
     }
     if (row == 10) {
          cell.textLabel.text = @"组织设置";
+    }
+    if (row == 11) {
+        cell.textLabel.text = @"漂亮的折线统计图";
     }
     return cell;
 }
@@ -154,6 +161,11 @@
     if (row == 10) {
         HFSettingViewController*vc = [HFSettingViewController new];
         vc.title  =@"设置";
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (row == 11) {
+        HFChartViewController *vc = [HFChartViewController new];
+        vc.title  =@"折线图";
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

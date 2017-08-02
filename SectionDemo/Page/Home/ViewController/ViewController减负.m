@@ -19,6 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if (@available(iOS 11, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = NO;
+    }
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.view);

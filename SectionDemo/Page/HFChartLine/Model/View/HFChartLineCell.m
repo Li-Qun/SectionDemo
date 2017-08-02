@@ -49,7 +49,7 @@ NSString *const kHFChartLineCellId = @"kHFChartLineCellId";
     
     path = indexPath;
     
-    chartView = [[HFChart alloc]initWithFrame:CGRectMake(0, 0, 320, 45 *3 + 45)
+    chartView = [[HFChart alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 45 *3 + 45)
                                    dataSource:self
                                         style:HFChartStyleLine];
     [chartView showInView:self.contentView];
@@ -74,13 +74,8 @@ NSString *const kHFChartLineCellId = @"kHFChartLineCellId";
 //数值多重数组
 - (NSArray *)chartConfigAxisYValue:(HFChart *)chart
 {
-//    NSArray *ary = @[@"22",@"44",@"15",@"40",@"42"];
-//    NSArray *ary1 = @[@"22",@"54",@"15",@"30",@"42",@"77",@"43"];
-//    NSArray *ary2 = @[@"76",@"34",@"54",@"23",@"16",@"32",@"17"];
-//    NSArray *ary3 = @[@"3",@"12",@"25",@"55",@"52"];
-    NSArray *ary4 = @[@"90",@"30",@"60",@"100",@"90",@"60",@"30",@"30",@"60",@"90"];
-    
-    return @[ary4];
+    NSArray *ary = @[@"90",@"30",@"60",@"100",@"90",@"60",@"30",@"30",@"60",@"90"];
+    return @[ary];
 }
 
 #pragma mark - @optional
