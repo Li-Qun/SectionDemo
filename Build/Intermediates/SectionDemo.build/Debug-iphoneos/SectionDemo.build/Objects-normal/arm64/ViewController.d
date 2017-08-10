@@ -159,23 +159,11 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/UINavigationController+FDFullscreenPopGesture.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCell.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDKeyedHeightCache.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDIndexPathHeightCache.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCellDebug.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIView+GoAdd.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCell.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDKeyedHeightCache.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDIndexPathHeightCache.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCellDebug.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/HFUIKit/UIView+GoAdd.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Home/ViewController/ViewController减负.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Transitions/ViewController/ActionViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Animation/ViewController/FromViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomRefresh/ViewController/CustomRefreshViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFPlayer/Controller/MethodDetailViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFPlayer/View/HFMovieView.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFPlayer/View/HFPlayerView.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomURLProtocol/BrowserViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/WKWebViewH5ObjC/UIWindow/HFWindowViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/WKWebViewH5ObjC/WKWebViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/Controller/ThirdSDKViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIAlertView+HFBlock.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/Setting/ViewController/HFSettingViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFChartLine/Controller/HFChartViewController.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/FirstViewController.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/SecondViewController.h

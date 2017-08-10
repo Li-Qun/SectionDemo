@@ -16,6 +16,9 @@
 		A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A718B4BD1EB9C2A5002F2EB1 /* BrowserViewController.m */; };
 		A718B5011EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A718B4FF1EBC92CC002F2EB1 /* SectionDemo.xcdatamodeld */; };
 		A71BE3BD1F1F4497008041EA /* HFSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BE3BC1F1F4497008041EA /* HFSettingCell.m */; };
+		A72E36B61F3C032A00C667CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72E36B41F3C032A00C667CD /* FirstViewController.m */; };
+		A72E36B71F3C032A00C667CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72E36B51F3C032A00C667CD /* ViewController.m */; };
+		A72E36B91F3C033B00C667CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72E36B81F3C033B00C667CD /* SecondViewController.m */; };
 		A730A9A81F1769F300945DDC /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A730A9A71F1769F300945DDC /* UIButton+Block.m */; };
 		A757D5D11EFB9B060030F86C /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A757D5D01EFB9B060030F86C /* WKWebViewController.m */; };
 		A757D5D51EFBA02C0030F86C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A757D5D31EFBA02C0030F86C /* test.html */; };
@@ -43,7 +46,6 @@
 		A780CAEF1E8CFF78000638EA /* HomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAEA1E8CFF78000638EA /* HomeBannerCell.m */; };
 		A780CAF01E8CFF78000638EA /* ViewController减负.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAED1E8CFF78000638EA /* ViewController减负.m */; };
 		A780CAF71E8CFFED000638EA /* CustomRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAF61E8CFFED000638EA /* CustomRefreshViewController.m */; };
-		A780CAFA1E8D04C6000638EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAF91E8D04C6000638EA /* ViewController.m */; };
 		A780CAFD1E8D05FB000638EA /* HFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CAFC1E8D05FB000638EA /* HFRefreshHeader.m */; };
 		A780CB041E8F47F1000638EA /* MethodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CB031E8F47F1000638EA /* MethodDetailViewController.m */; };
 		A780CB071E8F4D32000638EA /* HFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A780CB061E8F4D32000638EA /* HFPlayerView.m */; };
@@ -97,6 +99,10 @@
 		A718B5001EBC92CC002F2EB1 /* SectionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SectionDemo.xcdatamodel; sourceTree = "<group>"; };
 		A71BE3BB1F1F4497008041EA /* HFSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSettingCell.h; sourceTree = "<group>"; };
 		A71BE3BC1F1F4497008041EA /* HFSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSettingCell.m; sourceTree = "<group>"; };
+		A72E36B31F3C032A00C667CD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A72E36B41F3C032A00C667CD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A72E36B51F3C032A00C667CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A72E36B81F3C033B00C667CD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A730A9A61F1769F300945DDC /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
 		A730A9A71F1769F300945DDC /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		A757D5CF1EFB9B060030F86C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
@@ -113,6 +119,7 @@
 		A765C5EB1F1763160006059D /* HFDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDatabase.m; sourceTree = "<group>"; };
 		A765C5EC1F1763160006059D /* HFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFUser.h; sourceTree = "<group>"; };
 		A765C5ED1F1763160006059D /* HFUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFUser.m; sourceTree = "<group>"; };
+		A7723CD31F3C011E000DE6AF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A780CA9E1E8A6622000638EA /* HFAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFAnimation.h; sourceTree = "<group>"; };
 		A780CA9F1E8A6622000638EA /* HFAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAnimation.m; sourceTree = "<group>"; };
 		A780CAA11E8A6728000638EA /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewController.h; sourceTree = "<group>"; };
@@ -150,7 +157,6 @@
 		A780CAF51E8CFFED000638EA /* CustomRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshViewController.h; sourceTree = "<group>"; };
 		A780CAF61E8CFFED000638EA /* CustomRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshViewController.m; sourceTree = "<group>"; };
 		A780CAF81E8D04C6000638EA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A780CAF91E8D04C6000638EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A780CAFB1E8D05FB000638EA /* HFRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFRefreshHeader.h; sourceTree = "<group>"; };
 		A780CAFC1E8D05FB000638EA /* HFRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFRefreshHeader.m; sourceTree = "<group>"; };
 		A780CB021E8F47F1000638EA /* MethodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDetailViewController.h; sourceTree = "<group>"; };
@@ -367,6 +373,33 @@
 				A765C5ED1F1763160006059D /* HFUser.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A7723CD01F3BFF17000DE6AF /* Collection1 */ = {
+			isa = PBXGroup;
+			children = (
+				A780CAFE1E8F47B5000638EA /* HFPlayer */,
+				A780CAE41E8CFF78000638EA /* Home */,
+				A780CA9B1E8A65CC000638EA /* Animation */,
+				A780CABD1E8A7776000638EA /* Transitions */,
+				A780CAF11E8CFFB2000638EA /* CustomRefresh */,
+				A7B8B8E91ED2EBE600F0ABA4 /* WKWebViewH5ObjC */,
+				A7B8B9021ED6BDBA00F0ABA4 /* UIWindow */,
+				A7A819E91E9B70B700D0C461 /* HFUIKit */,
+				A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */,
+				A765C5E31F1763160006059D /* ThirdSDK */,
+				A7E620B41F1F368200D900EC /* Setting */,
+				A7D7AF261F31789E00BDE7E7 /* HFChartLine */,
+			);
+			name = Collection1;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A7723CD61F3C0165000DE6AF /* Collection2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collection2;
 			sourceTree = "<group>";
 		};
 		A780CA9B1E8A65CC000638EA /* Animation */ = {
@@ -621,31 +654,24 @@
 				A7B8B9031ED6BE0600F0ABA4 /* HFWindowViewController.h */,
 				A7B8B9041ED6BE0600F0ABA4 /* HFWindowViewController.m */,
 			);
-			name = UIWindow;
-			path = WKWebViewH5ObjC/UIWindow;
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 		A7BCB39D1E7258C800ECCDF7 /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				A7D7AF261F31789E00BDE7E7 /* HFChartLine */,
-				A7E620B41F1F368200D900EC /* Setting */,
-				A765C5E31F1763160006059D /* ThirdSDK */,
-				A718B4BB1EB9C2A5002F2EB1 /* CustomURLProtocol */,
-				A7A819E91E9B70B700D0C461 /* HFUIKit */,
+				A7723CD61F3C0165000DE6AF /* Collection2 */,
+				A7723CD01F3BFF17000DE6AF /* Collection1 */,
 				A780CAF81E8D04C6000638EA /* ViewController.h */,
-				A780CAF91E8D04C6000638EA /* ViewController.m */,
+				A72E36B51F3C032A00C667CD /* ViewController.m */,
+				A72E36B31F3C032A00C667CD /* FirstViewController.h */,
+				A72E36B41F3C032A00C667CD /* FirstViewController.m */,
+				A7723CD31F3C011E000DE6AF /* SecondViewController.h */,
+				A72E36B81F3C033B00C667CD /* SecondViewController.m */,
 				A7E50AC01F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.h */,
 				A7E50AC11F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m */,
 				A780CB0E1E8F5812000638EA /* UINavigationController+Rotation.h */,
 				A780CB0F1E8F5812000638EA /* UINavigationController+Rotation.m */,
-				A780CAFE1E8F47B5000638EA /* HFPlayer */,
-				A780CAE41E8CFF78000638EA /* Home */,
-				A780CA9B1E8A65CC000638EA /* Animation */,
-				A780CABD1E8A7776000638EA /* Transitions */,
-				A780CAF11E8CFFB2000638EA /* CustomRefresh */,
-				A7B8B8E91ED2EBE600F0ABA4 /* WKWebViewH5ObjC */,
-				A7B8B9021ED6BDBA00F0ABA4 /* UIWindow */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -892,13 +918,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7E50AC21F1C9F7C0080F338 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				A780CAFA1E8D04C6000638EA /* ViewController.m in Sources */,
 				A780CACC1E8A7776000638EA /* PopAnimation.m in Sources */,
 				A780CADF1E8BC0DB000638EA /* TransitionPopAnimation.m in Sources */,
 				A7D496901F317A6000AED56F /* HFChart.m in Sources */,
 				A765C5EF1F1763160006059D /* ThirdSDKViewController.m in Sources */,
 				A780CAEE1E8CFF78000638EA /* HomeTableViewDataSource.m in Sources */,
 				A7E620BD1F1F36CB00D900EC /* HFSettingItem.m in Sources */,
+				A72E36B61F3C032A00C667CD /* FirstViewController.m in Sources */,
 				A780CB0A1E8F4F3F000638EA /* HFMovieView.m in Sources */,
 				A7E620BA1F1F369600D900EC /* HFSettingViewController.m in Sources */,
 				A7E50AD31F1CA3510080F338 /* TableViewCacheViewController.m in Sources */,
@@ -921,6 +947,7 @@
 				A7B9FC331EB8386000D70F81 /* UIAlertView+HFBlock.m in Sources */,
 				A757D5D91EFBAF880030F86C /* WKDelegateController.m in Sources */,
 				A780CAD51E8BB728000638EA /* TransitionToViewController.m in Sources */,
+				A72E36B91F3C033B00C667CD /* SecondViewController.m in Sources */,
 				A718B4C01EB9C2A5002F2EB1 /* BrowserViewController.m in Sources */,
 				A780CACB1E8A7776000638EA /* NavigationPerfomer.m in Sources */,
 				A71BE3BD1F1F4497008041EA /* HFSettingCell.m in Sources */,
@@ -950,6 +977,7 @@
 				A7E50ACF1F1CA1ED0080F338 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				A780CAF71E8CFFED000638EA /* CustomRefreshViewController.m in Sources */,
 				A780CAEF1E8CFF78000638EA /* HomeBannerCell.m in Sources */,
+				A72E36B71F3C032A00C667CD /* ViewController.m in Sources */,
 				A765C5F01F1763160006059D /* HFDatabase.m in Sources */,
 				A7A819E71E9B234500D0C461 /* VideoProgressive.m in Sources */,
 				A780CAA91E8A6C0A000638EA /* ToViewController.m in Sources */,

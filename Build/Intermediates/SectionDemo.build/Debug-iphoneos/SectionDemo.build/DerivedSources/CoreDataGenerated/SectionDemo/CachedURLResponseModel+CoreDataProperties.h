@@ -2,7 +2,7 @@
 //  CachedURLResponseModel+CoreDataProperties.h
 //  
 //
-//  Created by HF on 2017/8/2.
+//  Created by HF on 2017/8/10.
 //
 //  This file was automatically generated and should not be edited.
 //

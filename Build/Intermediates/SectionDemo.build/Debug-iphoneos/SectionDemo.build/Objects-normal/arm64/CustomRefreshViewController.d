@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomRefresh/ViewController/CustomRefreshViewController.m \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/CustomRefresh/ViewController/CustomRefreshViewController.m \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/SectionDemo-Prefix.pch \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework/Modules/module.modulemap \
@@ -159,14 +159,14 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/UINavigationController+FDFullscreenPopGesture.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCell.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDKeyedHeightCache.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDIndexPathHeightCache.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCellDebug.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/HFUIKit/UIView+GoAdd.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomRefresh/ViewController/CustomRefreshViewController.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCell.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDKeyedHeightCache.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDIndexPathHeightCache.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/ThirdSDK/View/Category/UITableView+FDTemplateLayoutCellDebug.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/HFUIKit/UIView+GoAdd.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/CustomRefresh/ViewController/CustomRefreshViewController.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/ViewController.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomRefresh/View/HFRefreshHeader.h \
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/CustomRefresh/View/HFRefreshHeader.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Modules/module.modulemap \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefresh.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefreshNormalHeader.h \
@@ -189,4 +189,4 @@ dependencies: \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefreshFooter.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefreshAutoFooter.h \
   /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/Build/Products/Debug-iphoneos/MJRefresh/MJRefresh.framework/Headers/MJRefresh-umbrella.h \
-  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/CustomRefresh/View/HFReadMoreCell.h
+  /Users/hr-zhjh/Documents/2017LiqunDemo/OC_Demo/SectionDemo/SectionDemo/Page/New\ Group/CustomRefresh/View/HFReadMoreCell.h
